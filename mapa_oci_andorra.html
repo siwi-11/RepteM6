@@ -1,0 +1,3787 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_823969ea5490d6edc2210a5c124fff51 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_823969ea5490d6edc2210a5c124fff51" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_823969ea5490d6edc2210a5c124fff51 = L.map(
+                "map_823969ea5490d6edc2210a5c124fff51",
+                {
+                    center: [42.5078, 1.5211],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_68a3af1e8a165da0e2bdbe1a3f882762 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_68a3af1e8a165da0e2bdbe1a3f882762.addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var marker_7be5ef0f289fc506163188f7a0f1c181 = L.marker(
+                [42.5064, 1.52156],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_650c18f0002d7daa2ace1e1005f72ab1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2acfcbed0fb2ece77d4f528f849e38d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_23df9368b08bb7b399fa5069c3308d7e = $(`<div id="html_23df9368b08bb7b399fa5069c3308d7e" style="width: 100.0%; height: 100.0%;">Museu de la bicicleta<br>Andorra la Vella<br>Carrer Prat de la Creu, 68-70, AD500 Andorra la Vella</div>`)[0];
+                popup_2acfcbed0fb2ece77d4f528f849e38d4.setContent(html_23df9368b08bb7b399fa5069c3308d7e);
+            
+        
+
+        marker_7be5ef0f289fc506163188f7a0f1c181.bindPopup(popup_2acfcbed0fb2ece77d4f528f849e38d4)
+        ;
+
+        
+    
+    
+                marker_7be5ef0f289fc506163188f7a0f1c181.setIcon(icon_650c18f0002d7daa2ace1e1005f72ab1);
+            
+    
+            var marker_2a2fb3d97d628ddc7040fded9dab61d1 = L.marker(
+                [42.5064, 1.52156],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_2d68c2915d250804edb8e36418a4ec30 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_35607edbd0ff8ec5bdf8fdb61a75fceb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_43f9525b01ad8901a1e55e8e488e389e = $(`<div id="html_43f9525b01ad8901a1e55e8e488e389e" style="width: 100.0%; height: 100.0%;">Museu de la bicicleta<br>Andorra la Vella<br>Carrer Prat de la Creu, 68-70, AD500 Andorra la Vella</div>`)[0];
+                popup_35607edbd0ff8ec5bdf8fdb61a75fceb.setContent(html_43f9525b01ad8901a1e55e8e488e389e);
+            
+        
+
+        marker_2a2fb3d97d628ddc7040fded9dab61d1.bindPopup(popup_35607edbd0ff8ec5bdf8fdb61a75fceb)
+        ;
+
+        
+    
+    
+                marker_2a2fb3d97d628ddc7040fded9dab61d1.setIcon(icon_2d68c2915d250804edb8e36418a4ec30);
+            
+    
+            var marker_6a6847e2abe0172793733f30ea1da24e = L.marker(
+                [42.50693, 1.52225],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_6a04b577552fb21d4f933bd629cd38d5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9c1af332c88d4a0bacd00ceac1c18ebe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8fa0dce07065d8d0b65158e1795f6d15 = $(`<div id="html_8fa0dce07065d8d0b65158e1795f6d15" style="width: 100.0%; height: 100.0%;">Plaça del poble<br>Andorra la Vella<br>Plaça del poble, AD500 Andorra la Vella</div>`)[0];
+                popup_9c1af332c88d4a0bacd00ceac1c18ebe.setContent(html_8fa0dce07065d8d0b65158e1795f6d15);
+            
+        
+
+        marker_6a6847e2abe0172793733f30ea1da24e.bindPopup(popup_9c1af332c88d4a0bacd00ceac1c18ebe)
+        ;
+
+        
+    
+    
+                marker_6a6847e2abe0172793733f30ea1da24e.setIcon(icon_6a04b577552fb21d4f933bd629cd38d5);
+            
+    
+            var marker_79470f87b82be2758c58d04706b67282 = L.marker(
+                [42.50693, 1.52225],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_b93f1e1837cda42f456446b8b0333555 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b40b8af031a231f36044ed236b40a4dc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_56890050b405c494951b84dc08209148 = $(`<div id="html_56890050b405c494951b84dc08209148" style="width: 100.0%; height: 100.0%;">Plaça del poble<br>Andorra la Vella<br>Plaça del poble, AD500 Andorra la Vella</div>`)[0];
+                popup_b40b8af031a231f36044ed236b40a4dc.setContent(html_56890050b405c494951b84dc08209148);
+            
+        
+
+        marker_79470f87b82be2758c58d04706b67282.bindPopup(popup_b40b8af031a231f36044ed236b40a4dc)
+        ;
+
+        
+    
+    
+                marker_79470f87b82be2758c58d04706b67282.setIcon(icon_b93f1e1837cda42f456446b8b0333555);
+            
+    
+            var marker_fd06c1e5c0f399663c64e13d5ac720b0 = L.marker(
+                [42.50872, 1.52907],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_69a3963c390cc31ac844a041992ae65b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_303c46749e5d4a656ead0cb12e711024 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3b2477b2c7bf852407d1b237ec1f8c27 = $(`<div id="html_3b2477b2c7bf852407d1b237ec1f8c27" style="width: 100.0%; height: 100.0%;">La rotonda<br>Andorra la Vella<br>Plaça de la Rotonda, AD500 Andorra la Vella</div>`)[0];
+                popup_303c46749e5d4a656ead0cb12e711024.setContent(html_3b2477b2c7bf852407d1b237ec1f8c27);
+            
+        
+
+        marker_fd06c1e5c0f399663c64e13d5ac720b0.bindPopup(popup_303c46749e5d4a656ead0cb12e711024)
+        ;
+
+        
+    
+    
+                marker_fd06c1e5c0f399663c64e13d5ac720b0.setIcon(icon_69a3963c390cc31ac844a041992ae65b);
+            
+    
+            var marker_acc4f4def839b9892e2515393b3126a7 = L.marker(
+                [42.50691, 1.53051],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_ac75d8ba6a951f4471811f5e8a667181 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_eb1906506f93045a6ebffc78abe2b487 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_154148d49d91cdefb08d739b21a874d7 = $(`<div id="html_154148d49d91cdefb08d739b21a874d7" style="width: 100.0%; height: 100.0%;">C. Riberaygua<br>Andorra la Vella<br>Carrer Bonaventura Riberaygua, AD500 Andorra la Vella</div>`)[0];
+                popup_eb1906506f93045a6ebffc78abe2b487.setContent(html_154148d49d91cdefb08d739b21a874d7);
+            
+        
+
+        marker_acc4f4def839b9892e2515393b3126a7.bindPopup(popup_eb1906506f93045a6ebffc78abe2b487)
+        ;
+
+        
+    
+    
+                marker_acc4f4def839b9892e2515393b3126a7.setIcon(icon_ac75d8ba6a951f4471811f5e8a667181);
+            
+    
+            var marker_378fce998294876b612f8aab010c9919 = L.marker(
+                [42.50637, 1.52599],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_f8885bd8a8941988d25215ba9b6d149c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f1fca8823aade3b7fbadba412877dd13 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_28e387c8e0217f57314219fbf04502d1 = $(`<div id="html_28e387c8e0217f57314219fbf04502d1" style="width: 100.0%; height: 100.0%;">Parc central<br>Andorra la Vella<br>Parc Central, AD500 Andorra la Vella</div>`)[0];
+                popup_f1fca8823aade3b7fbadba412877dd13.setContent(html_28e387c8e0217f57314219fbf04502d1);
+            
+        
+
+        marker_378fce998294876b612f8aab010c9919.bindPopup(popup_f1fca8823aade3b7fbadba412877dd13)
+        ;
+
+        
+    
+    
+                marker_378fce998294876b612f8aab010c9919.setIcon(icon_f8885bd8a8941988d25215ba9b6d149c);
+            
+    
+            var marker_030888ebd962621fedc9663707ab96aa = L.marker(
+                [42.50637, 1.52599],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_8df8e8f6e75e4b724ad8556c6d3d5cdd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dbd527350c28c3064e53cae3765e5d80 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d25d5d279f61761af011013f1e3d030 = $(`<div id="html_2d25d5d279f61761af011013f1e3d030" style="width: 100.0%; height: 100.0%;">Parc central<br>Andorra la Vella<br>Parc Central, AD500 Andorra la Vella</div>`)[0];
+                popup_dbd527350c28c3064e53cae3765e5d80.setContent(html_2d25d5d279f61761af011013f1e3d030);
+            
+        
+
+        marker_030888ebd962621fedc9663707ab96aa.bindPopup(popup_dbd527350c28c3064e53cae3765e5d80)
+        ;
+
+        
+    
+    
+                marker_030888ebd962621fedc9663707ab96aa.setIcon(icon_8df8e8f6e75e4b724ad8556c6d3d5cdd);
+            
+    
+            var marker_47c248b276473150b2a1c5f6ff8d94f7 = L.marker(
+                [42.50629, 1.53115],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_a6682fbfa3ee6af46a35dbde082e74f8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a6c9f671f141eeb34bb10aadb6a2167d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_94e67972023a16aa486059d73af32923 = $(`<div id="html_94e67972023a16aa486059d73af32923" style="width: 100.0%; height: 100.0%;">Untitled art contemporani<br>Andorra la Vella<br>Carrer de na Maria Pla, 31, AD500 Andorra la Vella</div>`)[0];
+                popup_a6c9f671f141eeb34bb10aadb6a2167d.setContent(html_94e67972023a16aa486059d73af32923);
+            
+        
+
+        marker_47c248b276473150b2a1c5f6ff8d94f7.bindPopup(popup_a6c9f671f141eeb34bb10aadb6a2167d)
+        ;
+
+        
+    
+    
+                marker_47c248b276473150b2a1c5f6ff8d94f7.setIcon(icon_a6682fbfa3ee6af46a35dbde082e74f8);
+            
+    
+            var marker_63a7c487c558b0cb91836fa9f7ffd97e = L.marker(
+                [42.50878, 1.5344],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_106daac06de6b49a43679bf4fc4266cb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0786fd5cc08b055ea6875bc9baf140e2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d93f7a34d63d2586385291ad03c1dfa0 = $(`<div id="html_d93f7a34d63d2586385291ad03c1dfa0" style="width: 100.0%; height: 100.0%;">Cinemes illa<br>Escaldes-Engordany<br>Av. Carlemany, 70, AD700 Escaldes-Engordany</div>`)[0];
+                popup_0786fd5cc08b055ea6875bc9baf140e2.setContent(html_d93f7a34d63d2586385291ad03c1dfa0);
+            
+        
+
+        marker_63a7c487c558b0cb91836fa9f7ffd97e.bindPopup(popup_0786fd5cc08b055ea6875bc9baf140e2)
+        ;
+
+        
+    
+    
+                marker_63a7c487c558b0cb91836fa9f7ffd97e.setIcon(icon_106daac06de6b49a43679bf4fc4266cb);
+            
+    
+            var marker_347a5a44418d82ffd8f43bdd7857339f = L.marker(
+                [42.50878, 1.5344],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_638a448f9474d1f8f6bcabb3d904fa68 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_78c27cb1ed8da958dd3f141afd3c9b68 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3b0aba9b093501bbf3258df11daa28be = $(`<div id="html_3b0aba9b093501bbf3258df11daa28be" style="width: 100.0%; height: 100.0%;">Cinemes illa<br>Escaldes-Engordany<br>Av. Carlemany, 70, AD700 Escaldes-Engordany</div>`)[0];
+                popup_78c27cb1ed8da958dd3f141afd3c9b68.setContent(html_3b0aba9b093501bbf3258df11daa28be);
+            
+        
+
+        marker_347a5a44418d82ffd8f43bdd7857339f.bindPopup(popup_78c27cb1ed8da958dd3f141afd3c9b68)
+        ;
+
+        
+    
+    
+                marker_347a5a44418d82ffd8f43bdd7857339f.setIcon(icon_638a448f9474d1f8f6bcabb3d904fa68);
+            
+    
+            var marker_9435f89154c6a0df8230bc3ad15925b2 = L.marker(
+                [42.50878, 1.5344],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_4caa42299ff9f8c295541eb86394ec1d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bb065257efd3790ec7aad1a92261d069 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_daf5b595e2275ad09f1b2aac6aa2de52 = $(`<div id="html_daf5b595e2275ad09f1b2aac6aa2de52" style="width: 100.0%; height: 100.0%;">Cinemes illa<br>Escaldes-Engordany<br>Av. Carlemany, 70, AD700 Escaldes-Engordany</div>`)[0];
+                popup_bb065257efd3790ec7aad1a92261d069.setContent(html_daf5b595e2275ad09f1b2aac6aa2de52);
+            
+        
+
+        marker_9435f89154c6a0df8230bc3ad15925b2.bindPopup(popup_bb065257efd3790ec7aad1a92261d069)
+        ;
+
+        
+    
+    
+                marker_9435f89154c6a0df8230bc3ad15925b2.setIcon(icon_4caa42299ff9f8c295541eb86394ec1d);
+            
+    
+            var marker_e728249e8da7ac9332e3fc66cd4dd15c = L.marker(
+                [42.50878, 1.5344],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_d520887c3820a5de522ca3a89e0f9846 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_59b6fb9f1443c25f41c920fc34a77932 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_442746059295a6f459e8f8e156972f6a = $(`<div id="html_442746059295a6f459e8f8e156972f6a" style="width: 100.0%; height: 100.0%;">Cinemes illa<br>Escaldes-Engordany<br>Av. Carlemany, 70, AD700 Escaldes-Engordany</div>`)[0];
+                popup_59b6fb9f1443c25f41c920fc34a77932.setContent(html_442746059295a6f459e8f8e156972f6a);
+            
+        
+
+        marker_e728249e8da7ac9332e3fc66cd4dd15c.bindPopup(popup_59b6fb9f1443c25f41c920fc34a77932)
+        ;
+
+        
+    
+    
+                marker_e728249e8da7ac9332e3fc66cd4dd15c.setIcon(icon_d520887c3820a5de522ca3a89e0f9846);
+            
+    
+            var marker_5d59c351ed805556520f70cef6466dc1 = L.marker(
+                [42.50878, 1.5344],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_3db8bff397b77920b19b219b8cfbc337 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1b8b7aff698e7505f3f99dd60dde6e40 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e7ad3382dc02ef4eb371c3d8ae99a7c7 = $(`<div id="html_e7ad3382dc02ef4eb371c3d8ae99a7c7" style="width: 100.0%; height: 100.0%;">Cinemes illa<br>Escaldes-Engordany<br>Av. Carlemany, 70, AD700 Escaldes-Engordany</div>`)[0];
+                popup_1b8b7aff698e7505f3f99dd60dde6e40.setContent(html_e7ad3382dc02ef4eb371c3d8ae99a7c7);
+            
+        
+
+        marker_5d59c351ed805556520f70cef6466dc1.bindPopup(popup_1b8b7aff698e7505f3f99dd60dde6e40)
+        ;
+
+        
+    
+    
+                marker_5d59c351ed805556520f70cef6466dc1.setIcon(icon_3db8bff397b77920b19b219b8cfbc337);
+            
+    
+            var marker_9846fc8c545c24fdc0a38a9b9d54dfa4 = L.marker(
+                [42.50878, 1.5344],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_0c6e5f643f68c29a32155e08267cdc20 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ef4f3894cfefeabc8f3d5989390e8ad6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f5d201388ab84871f54a646e17ca3844 = $(`<div id="html_f5d201388ab84871f54a646e17ca3844" style="width: 100.0%; height: 100.0%;">Cinemes illa<br>Escaldes-Engordany<br>Av. Carlemany, 70, AD700 Escaldes-Engordany</div>`)[0];
+                popup_ef4f3894cfefeabc8f3d5989390e8ad6.setContent(html_f5d201388ab84871f54a646e17ca3844);
+            
+        
+
+        marker_9846fc8c545c24fdc0a38a9b9d54dfa4.bindPopup(popup_ef4f3894cfefeabc8f3d5989390e8ad6)
+        ;
+
+        
+    
+    
+                marker_9846fc8c545c24fdc0a38a9b9d54dfa4.setIcon(icon_0c6e5f643f68c29a32155e08267cdc20);
+            
+    
+            var marker_630b18a421ad0ecd81dec3f9f044e652 = L.marker(
+                [42.50878, 1.5344],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_04ce965fc54100be708f7e8bebce91ff = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0273a861dae8a2ce34a3d7b1d53ea6af = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2612e9b8736e5a1784e87bdf6f1e76e1 = $(`<div id="html_2612e9b8736e5a1784e87bdf6f1e76e1" style="width: 100.0%; height: 100.0%;">Cinemes illa<br>Escaldes-Engordany<br>Av. Carlemany, 70, AD700 Escaldes-Engordany</div>`)[0];
+                popup_0273a861dae8a2ce34a3d7b1d53ea6af.setContent(html_2612e9b8736e5a1784e87bdf6f1e76e1);
+            
+        
+
+        marker_630b18a421ad0ecd81dec3f9f044e652.bindPopup(popup_0273a861dae8a2ce34a3d7b1d53ea6af)
+        ;
+
+        
+    
+    
+                marker_630b18a421ad0ecd81dec3f9f044e652.setIcon(icon_04ce965fc54100be708f7e8bebce91ff);
+            
+    
+            var marker_d779a91631569aaa026cf4d9f467e456 = L.marker(
+                [42.50894, 1.54199],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_72a07d962c7fc1c82becbe5152677aca = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_add43124b9a46b0e8c7fa4df25d17409 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_023da0d981dd42a9ac01164232cea9b9 = $(`<div id="html_023da0d981dd42a9ac01164232cea9b9" style="width: 100.0%; height: 100.0%;">Museu Thyssen<br>Escaldes-Engordany<br>Av. Carlemany, 37, AD700 Escaldes-Engordany</div>`)[0];
+                popup_add43124b9a46b0e8c7fa4df25d17409.setContent(html_023da0d981dd42a9ac01164232cea9b9);
+            
+        
+
+        marker_d779a91631569aaa026cf4d9f467e456.bindPopup(popup_add43124b9a46b0e8c7fa4df25d17409)
+        ;
+
+        
+    
+    
+                marker_d779a91631569aaa026cf4d9f467e456.setIcon(icon_72a07d962c7fc1c82becbe5152677aca);
+            
+    
+            var marker_0eea9bd7ad383a98dc6ff158680433a9 = L.marker(
+                [42.50484, 1.52635],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_bab8985cb244ea31c42a6080117b1314 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_04cbda37f9e8128b2baaeb3e013c1823 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0a94607f04b3db3475b51ee7e1904408 = $(`<div id="html_0a94607f04b3db3475b51ee7e1904408" style="width: 100.0%; height: 100.0%;">Galeria Taranmana<br>Andorra la Vella<br>Carrer Esteve Dolsa Pujal, 28, AD500 Andorra la Vella</div>`)[0];
+                popup_04cbda37f9e8128b2baaeb3e013c1823.setContent(html_0a94607f04b3db3475b51ee7e1904408);
+            
+        
+
+        marker_0eea9bd7ad383a98dc6ff158680433a9.bindPopup(popup_04cbda37f9e8128b2baaeb3e013c1823)
+        ;
+
+        
+    
+    
+                marker_0eea9bd7ad383a98dc6ff158680433a9.setIcon(icon_bab8985cb244ea31c42a6080117b1314);
+            
+    
+            var marker_cf9d3b2d1b49182f4afef0daf078f27f = L.marker(
+                [42.50929, 1.53932],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_7d0b6e98208fb2329e45007b6cfc77ec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d3ff215b98e75d2181597b4dba28ef1e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f581de7fe82613e9bc4f510eef28d141 = $(`<div id="html_f581de7fe82613e9bc4f510eef28d141" style="width: 100.0%; height: 100.0%;">Hotel Roc Blanc<br>Escaldes-Engordany<br>Plaça Coprínceps, 5, AD700 Escaldes-Engordany</div>`)[0];
+                popup_d3ff215b98e75d2181597b4dba28ef1e.setContent(html_f581de7fe82613e9bc4f510eef28d141);
+            
+        
+
+        marker_cf9d3b2d1b49182f4afef0daf078f27f.bindPopup(popup_d3ff215b98e75d2181597b4dba28ef1e)
+        ;
+
+        
+    
+    
+                marker_cf9d3b2d1b49182f4afef0daf078f27f.setIcon(icon_7d0b6e98208fb2329e45007b6cfc77ec);
+            
+    
+            var marker_87faf8908c7fc1e42d129720350994ec = L.marker(
+                [42.5107, 1.54129],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_5b3b16658291ce3fc4ba291b48c89ea5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3bd0385f40510b492684747d4ed1b91f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fdfb2967c5f2aae8b737a7b2db1fc20b = $(`<div id="html_fdfb2967c5f2aae8b737a7b2db1fc20b" style="width: 100.0%; height: 100.0%;">Estudi de Miquel Mercè<br>Escaldes-Engordany<br>Av. de les Escoles nº18 Entresol, 1-B, AD700 Escaldes-Engordany</div>`)[0];
+                popup_3bd0385f40510b492684747d4ed1b91f.setContent(html_fdfb2967c5f2aae8b737a7b2db1fc20b);
+            
+        
+
+        marker_87faf8908c7fc1e42d129720350994ec.bindPopup(popup_3bd0385f40510b492684747d4ed1b91f)
+        ;
+
+        
+    
+    
+                marker_87faf8908c7fc1e42d129720350994ec.setIcon(icon_5b3b16658291ce3fc4ba291b48c89ea5);
+            
+    
+            var marker_10090f00ae8db45c9403ee71edd21a5d = L.marker(
+                [42.50838, 1.53681],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_ab59bacf6fa7467f9afcb2675ed20cf6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_abc15702dd6605fc145036526cd08ac6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bc2eff75f3b787d9c8458a07a7ee5bb4 = $(`<div id="html_bc2eff75f3b787d9c8458a07a7ee5bb4" style="width: 100.0%; height: 100.0%;">Art al Set Galeria<br>Escaldes-Engordany<br>Av. Carlemany, 95, AD700 Escaldes-Engordany</div>`)[0];
+                popup_abc15702dd6605fc145036526cd08ac6.setContent(html_bc2eff75f3b787d9c8458a07a7ee5bb4);
+            
+        
+
+        marker_10090f00ae8db45c9403ee71edd21a5d.bindPopup(popup_abc15702dd6605fc145036526cd08ac6)
+        ;
+
+        
+    
+    
+                marker_10090f00ae8db45c9403ee71edd21a5d.setIcon(icon_ab59bacf6fa7467f9afcb2675ed20cf6);
+            
+    
+            var marker_26bfe0eebffbaaa966231354c28453ff = L.marker(
+                [42.5112, 1.53688],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_17eab71f8ca48641e47423b2f65b2f8a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ae962712a73c385fc2b278a1d3421cf0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_933f59e22d849555be20a4b4e327e353 = $(`<div id="html_933f59e22d849555be20a4b4e327e353" style="width: 100.0%; height: 100.0%;">Taller tèxtil<br>Escaldes-Engordany<br>Passeig del Valira, s/n, AD500 Escaldes-Engordany</div>`)[0];
+                popup_ae962712a73c385fc2b278a1d3421cf0.setContent(html_933f59e22d849555be20a4b4e327e353);
+            
+        
+
+        marker_26bfe0eebffbaaa966231354c28453ff.bindPopup(popup_ae962712a73c385fc2b278a1d3421cf0)
+        ;
+
+        
+    
+    
+                marker_26bfe0eebffbaaa966231354c28453ff.setIcon(icon_17eab71f8ca48641e47423b2f65b2f8a);
+            
+    
+            var marker_bd074bae06584c39573461cbd25ab3b4 = L.marker(
+                [42.53577, 1.58072],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_46b763e98144d95c3583603bb365504c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_32282767a15fa04a277574dc0f506d55 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0baef2e69881d40ecb70fb4ecd86db15 = $(`<div id="html_0baef2e69881d40ecb70fb4ecd86db15" style="width: 100.0%; height: 100.0%;">Complex esportiu Encamp<br>Encamp<br>Passeig de l'Alguer, S/N, AD200 Encamp</div>`)[0];
+                popup_32282767a15fa04a277574dc0f506d55.setContent(html_0baef2e69881d40ecb70fb4ecd86db15);
+            
+        
+
+        marker_bd074bae06584c39573461cbd25ab3b4.bindPopup(popup_32282767a15fa04a277574dc0f506d55)
+        ;
+
+        
+    
+    
+                marker_bd074bae06584c39573461cbd25ab3b4.setIcon(icon_46b763e98144d95c3583603bb365504c);
+            
+    
+            var marker_8cd5bbf97a5f003557333c7b7729a3d6 = L.marker(
+                [42.54473, 1.73293],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_64c879e6636742cbb643fd64e7bfb25c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5d1b14e1cb025509e5bad2b357606781 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b80c798309ce53c7459aca06f083aba4 = $(`<div id="html_b80c798309ce53c7459aca06f083aba4" style="width: 100.0%; height: 100.0%;">Complex esportiu Pas de la casa<br>Encamp<br>Av. del Consell General, AD200 Pas de la Casa</div>`)[0];
+                popup_5d1b14e1cb025509e5bad2b357606781.setContent(html_b80c798309ce53c7459aca06f083aba4);
+            
+        
+
+        marker_8cd5bbf97a5f003557333c7b7729a3d6.bindPopup(popup_5d1b14e1cb025509e5bad2b357606781)
+        ;
+
+        
+    
+    
+                marker_8cd5bbf97a5f003557333c7b7729a3d6.setIcon(icon_64c879e6636742cbb643fd64e7bfb25c);
+            
+    
+            var marker_a5279a1bfbe35fd7ada3680c0f0ce6f2 = L.marker(
+                [42.5148, 1.55346],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_ccd624ad606bc207f641a76acbac6c51 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b2e7a38ee820557cba9aa0ce70cc5cc8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7cd143eb784b1a1633dfc6684472b622 = $(`<div id="html_7cd143eb784b1a1633dfc6684472b622" style="width: 100.0%; height: 100.0%;">MW Museu electricitat<br>Encamp<br>Av. de la Bartra, s/n, AD200 Encamp</div>`)[0];
+                popup_b2e7a38ee820557cba9aa0ce70cc5cc8.setContent(html_7cd143eb784b1a1633dfc6684472b622);
+            
+        
+
+        marker_a5279a1bfbe35fd7ada3680c0f0ce6f2.bindPopup(popup_b2e7a38ee820557cba9aa0ce70cc5cc8)
+        ;
+
+        
+    
+    
+                marker_a5279a1bfbe35fd7ada3680c0f0ce6f2.setIcon(icon_ccd624ad606bc207f641a76acbac6c51);
+            
+    
+            var marker_83b0a4cc3a76acb50645225a092ed85f = L.marker(
+                [42.555, 1.53306],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_bec879e6497d807bbacf2e038d4a1ec3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_48401b01c04210205e3a5c523eb1112e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2935a5ec58ae7b59ca1439d6b0542b97 = $(`<div id="html_2935a5ec58ae7b59ca1439d6b0542b97" style="width: 100.0%; height: 100.0%;">Parròquia<br>Ordino<br>nan</div>`)[0];
+                popup_48401b01c04210205e3a5c523eb1112e.setContent(html_2935a5ec58ae7b59ca1439d6b0542b97);
+            
+        
+
+        marker_83b0a4cc3a76acb50645225a092ed85f.bindPopup(popup_48401b01c04210205e3a5c523eb1112e)
+        ;
+
+        
+    
+    
+                marker_83b0a4cc3a76acb50645225a092ed85f.setIcon(icon_bec879e6497d807bbacf2e038d4a1ec3);
+            
+    
+            var marker_b55ddecc174c3090cfeff091858aee6f = L.marker(
+                [42.57602, 1.51896],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_fab63b9a3557ade6dea51f2f706ca6c0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e2fd99826980d640913f586982e61a99 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da14646d36bcac19869e3dff21839b27 = $(`<div id="html_da14646d36bcac19869e3dff21839b27" style="width: 100.0%; height: 100.0%;">Cal Pal<br>Ordino<br>Carrer de Pal, 1, AD300 La Cortinada</div>`)[0];
+                popup_e2fd99826980d640913f586982e61a99.setContent(html_da14646d36bcac19869e3dff21839b27);
+            
+        
+
+        marker_b55ddecc174c3090cfeff091858aee6f.bindPopup(popup_e2fd99826980d640913f586982e61a99)
+        ;
+
+        
+    
+    
+                marker_b55ddecc174c3090cfeff091858aee6f.setIcon(icon_fab63b9a3557ade6dea51f2f706ca6c0);
+            
+    
+            var marker_e8c74c68f4121ba8b0a406b7a52a8c93 = L.marker(
+                [42.53288, 1.58618],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_c871a41d9c246aabf4ac76d8ea9caad9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1f72466557c3a0e39f2224b444475235 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f208e08f9e23a37b13a1d508a174eea = $(`<div id="html_4f208e08f9e23a37b13a1d508a174eea" style="width: 100.0%; height: 100.0%;">Planetarium Go<br>La Massana<br>Carrer dels Avellaners, AD200 Encamp</div>`)[0];
+                popup_1f72466557c3a0e39f2224b444475235.setContent(html_4f208e08f9e23a37b13a1d508a174eea);
+            
+        
+
+        marker_e8c74c68f4121ba8b0a406b7a52a8c93.bindPopup(popup_1f72466557c3a0e39f2224b444475235)
+        ;
+
+        
+    
+    
+                marker_e8c74c68f4121ba8b0a406b7a52a8c93.setIcon(icon_c871a41d9c246aabf4ac76d8ea9caad9);
+            
+    
+            var marker_7beab41ceeab8f9bb8160e387b3bd530 = L.marker(
+                [42.54618, 1.51484],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_087f8bc355cb3167e519fd725f909178 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bc719ab9511b8f2d4dabb6f379e9a0d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2aae26bab951f4b12439982ab4361773 = $(`<div id="html_2aae26bab951f4b12439982ab4361773" style="width: 100.0%; height: 100.0%;">Plaça les fontetes<br>La Massana<br>Plaça de les Fontetes, AD300 La Massana</div>`)[0];
+                popup_bc719ab9511b8f2d4dabb6f379e9a0d6.setContent(html_2aae26bab951f4b12439982ab4361773);
+            
+        
+
+        marker_7beab41ceeab8f9bb8160e387b3bd530.bindPopup(popup_bc719ab9511b8f2d4dabb6f379e9a0d6)
+        ;
+
+        
+    
+    
+                marker_7beab41ceeab8f9bb8160e387b3bd530.setIcon(icon_087f8bc355cb3167e519fd725f909178);
+            
+    
+            var marker_e1026757df959449e472e0fd99202efd = L.marker(
+                [42.465, 1.49111],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_51f9e045e81787887e06861b1faea32f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1c4e857a06fd0906bf68f7a48eb3b6bd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7e12bad25784588ec91388076942abd7 = $(`<div id="html_7e12bad25784588ec91388076942abd7" style="width: 100.0%; height: 100.0%;">Parròquia<br>Sant Julià de Lòria<br>nan</div>`)[0];
+                popup_1c4e857a06fd0906bf68f7a48eb3b6bd.setContent(html_7e12bad25784588ec91388076942abd7);
+            
+        
+
+        marker_e1026757df959449e472e0fd99202efd.bindPopup(popup_1c4e857a06fd0906bf68f7a48eb3b6bd)
+        ;
+
+        
+    
+    
+                marker_e1026757df959449e472e0fd99202efd.setIcon(icon_51f9e045e81787887e06861b1faea32f);
+            
+    
+            var marker_631d9d312426ab0b1d59dceca7123674 = L.marker(
+                [42.465, 1.49111],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_1d51df34ab81f54eeb8c2ca5364f6a68 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2e254a7d1eef4e1884eaaa04efc7518c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cff1d99b2a518a0be2d89474bd0bcf38 = $(`<div id="html_cff1d99b2a518a0be2d89474bd0bcf38" style="width: 100.0%; height: 100.0%;">Parròquia<br>Sant Julià de Lòria<br>nan</div>`)[0];
+                popup_2e254a7d1eef4e1884eaaa04efc7518c.setContent(html_cff1d99b2a518a0be2d89474bd0bcf38);
+            
+        
+
+        marker_631d9d312426ab0b1d59dceca7123674.bindPopup(popup_2e254a7d1eef4e1884eaaa04efc7518c)
+        ;
+
+        
+    
+    
+                marker_631d9d312426ab0b1d59dceca7123674.setIcon(icon_1d51df34ab81f54eeb8c2ca5364f6a68);
+            
+    
+            var marker_a8519daae99e705c06adc21b012e663a = L.marker(
+                [42.465, 1.49111],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_05c3c95ff12f501bf1ed5b3199cda619 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e74da77c2c1c42dbc5a291c3ffb2cd88 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_adc05579271451ff79e76957819f9aea = $(`<div id="html_adc05579271451ff79e76957819f9aea" style="width: 100.0%; height: 100.0%;">Parròquia<br>Sant Julià de Lòria<br>nan</div>`)[0];
+                popup_e74da77c2c1c42dbc5a291c3ffb2cd88.setContent(html_adc05579271451ff79e76957819f9aea);
+            
+        
+
+        marker_a8519daae99e705c06adc21b012e663a.bindPopup(popup_e74da77c2c1c42dbc5a291c3ffb2cd88)
+        ;
+
+        
+    
+    
+                marker_a8519daae99e705c06adc21b012e663a.setIcon(icon_05c3c95ff12f501bf1ed5b3199cda619);
+            
+    
+            var marker_37634b39793cff342c6b08fa6f004fa8 = L.marker(
+                [42.465, 1.49111],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_d318aa9d4b97e0f77f15dfff792a7a40 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_91a499993731e02c797a6784ffe8712b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fdbb8b25ef369f236fe941d047e9ff74 = $(`<div id="html_fdbb8b25ef369f236fe941d047e9ff74" style="width: 100.0%; height: 100.0%;">Parròquia<br>Sant Julià de Lòria<br>nan</div>`)[0];
+                popup_91a499993731e02c797a6784ffe8712b.setContent(html_fdbb8b25ef369f236fe941d047e9ff74);
+            
+        
+
+        marker_37634b39793cff342c6b08fa6f004fa8.bindPopup(popup_91a499993731e02c797a6784ffe8712b)
+        ;
+
+        
+    
+    
+                marker_37634b39793cff342c6b08fa6f004fa8.setIcon(icon_d318aa9d4b97e0f77f15dfff792a7a40);
+            
+    
+            var marker_16921347818d633efa81dba483387b70 = L.marker(
+                [42.46517, 1.49048],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_c27b3971991cd6415ba8b1eed783e4b8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b440a67b10a00b3a269e9b73978871b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_047f53568419df6cdf4fca3df6b01895 = $(`<div id="html_047f53568419df6cdf4fca3df6b01895" style="width: 100.0%; height: 100.0%;">Biblioteca Comunal<br>Sant Julià de Lòria<br>Plaça de la Germandat, AD600 Sant Julià de Lòria</div>`)[0];
+                popup_b440a67b10a00b3a269e9b73978871b1.setContent(html_047f53568419df6cdf4fca3df6b01895);
+            
+        
+
+        marker_16921347818d633efa81dba483387b70.bindPopup(popup_b440a67b10a00b3a269e9b73978871b1)
+        ;
+
+        
+    
+    
+                marker_16921347818d633efa81dba483387b70.setIcon(icon_c27b3971991cd6415ba8b1eed783e4b8);
+            
+    
+            var marker_9303fdf13cd52c22681d4ab7cf9ac2f3 = L.marker(
+                [42.49076, 1.49393],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_6658dc89e4b7bb680723deb4e7260736 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f13ecc8230e8a3cbf1569ffc4da70c44 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69a48b4906327c85a3f2505dfaec72f6 = $(`<div id="html_69a48b4906327c85a3f2505dfaec72f6" style="width: 100.0%; height: 100.0%;">Roureda de la Margineda<br>Andorra la Vella<br>Carrer Roureda de Malreu, 8, AD500 Santa Coloma</div>`)[0];
+                popup_f13ecc8230e8a3cbf1569ffc4da70c44.setContent(html_69a48b4906327c85a3f2505dfaec72f6);
+            
+        
+
+        marker_9303fdf13cd52c22681d4ab7cf9ac2f3.bindPopup(popup_f13ecc8230e8a3cbf1569ffc4da70c44)
+        ;
+
+        
+    
+    
+                marker_9303fdf13cd52c22681d4ab7cf9ac2f3.setIcon(icon_6658dc89e4b7bb680723deb4e7260736);
+            
+    
+            var marker_95d1057d68f034404624a5ed92838bf1 = L.marker(
+                [42.49417, 1.49756],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_b49b6847c43656fa26ecee5fb2df2f82 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8870807bac0a917779f66b8673540027 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_12761c0aba91c1792144c10c8ccb64d4 = $(`<div id="html_12761c0aba91c1792144c10c8ccb64d4" style="width: 100.0%; height: 100.0%;">Església Santa Coloma<br>Andorra la Vella<br>Carrer Major, 8, AD500 Santa Coloma</div>`)[0];
+                popup_8870807bac0a917779f66b8673540027.setContent(html_12761c0aba91c1792144c10c8ccb64d4);
+            
+        
+
+        marker_95d1057d68f034404624a5ed92838bf1.bindPopup(popup_8870807bac0a917779f66b8673540027)
+        ;
+
+        
+    
+    
+                marker_95d1057d68f034404624a5ed92838bf1.setIcon(icon_b49b6847c43656fa26ecee5fb2df2f82);
+            
+    
+            var marker_13e59b8f6bd50152b5d1157fff72f4c3 = L.marker(
+                [42.49457, 1.49878],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_435083b18a45c38a63af82409dacac85 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d5df835f05dd3b9ed3cbac48f15394fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_18ade176c4816dc306e196007b080069 = $(`<div id="html_18ade176c4816dc306e196007b080069" style="width: 100.0%; height: 100.0%;">Espai Columba<br>Andorra la Vella<br>Carrer Verge del Remei, 19, AD500 Santa Coloma</div>`)[0];
+                popup_d5df835f05dd3b9ed3cbac48f15394fc.setContent(html_18ade176c4816dc306e196007b080069);
+            
+        
+
+        marker_13e59b8f6bd50152b5d1157fff72f4c3.bindPopup(popup_d5df835f05dd3b9ed3cbac48f15394fc)
+        ;
+
+        
+    
+    
+                marker_13e59b8f6bd50152b5d1157fff72f4c3.setIcon(icon_435083b18a45c38a63af82409dacac85);
+            
+    
+            var marker_d581748cc87030c728222c7a64bcb725 = L.marker(
+                [42.50736, 1.52168],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_ccd83ffda9d87fc777456b22729744b9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c6a933f5933ef8e0253af3747e6d6a05 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc1e25267f8dc0292cb0292d24797ecc = $(`<div id="html_cc1e25267f8dc0292cb0292d24797ecc" style="width: 100.0%; height: 100.0%;">Església Sant Esteve <br>Andorra la Vella<br>Carrer de la Vall, 6, AD500 Andorra la Vella</div>`)[0];
+                popup_c6a933f5933ef8e0253af3747e6d6a05.setContent(html_cc1e25267f8dc0292cb0292d24797ecc);
+            
+        
+
+        marker_d581748cc87030c728222c7a64bcb725.bindPopup(popup_c6a933f5933ef8e0253af3747e6d6a05)
+        ;
+
+        
+    
+    
+                marker_d581748cc87030c728222c7a64bcb725.setIcon(icon_ccd83ffda9d87fc777456b22729744b9);
+            
+    
+            var marker_5581ae42c879f0f3c2632de882952b7d = L.marker(
+                [42.506626, 1.520469],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_a88ad1535bde9cfc9b6203679f535dbc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_397e292d706ab27ed1c6de20fada8a1e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_24525b10d257570f6b9990d776e1336c = $(`<div id="html_24525b10d257570f6b9990d776e1336c" style="width: 100.0%; height: 100.0%;">Casa de la Vall<br>Andorra la Vella<br>Casa de la Vall, AD500 Andorra la Vella</div>`)[0];
+                popup_397e292d706ab27ed1c6de20fada8a1e.setContent(html_24525b10d257570f6b9990d776e1336c);
+            
+        
+
+        marker_5581ae42c879f0f3c2632de882952b7d.bindPopup(popup_397e292d706ab27ed1c6de20fada8a1e)
+        ;
+
+        
+    
+    
+                marker_5581ae42c879f0f3c2632de882952b7d.setIcon(icon_a88ad1535bde9cfc9b6203679f535dbc);
+            
+    
+            var marker_268c2fabfc65193b3118172cc59d2262 = L.marker(
+                [42.5064, 1.52146],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_124bc21761ab8c428aea0e0c19d55d3c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_089f7e9864ea6f732ed36602f460f51b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bcb1c8b6ef4a4e2d7489a54b2c86f1b2 = $(`<div id="html_bcb1c8b6ef4a4e2d7489a54b2c86f1b2" style="width: 100.0%; height: 100.0%;">Bici Lab<br>Andorra la Vella<br>Carrer Prat de la Creu, 68-70, AD500 Andorra la Vella</div>`)[0];
+                popup_089f7e9864ea6f732ed36602f460f51b.setContent(html_bcb1c8b6ef4a4e2d7489a54b2c86f1b2);
+            
+        
+
+        marker_268c2fabfc65193b3118172cc59d2262.bindPopup(popup_089f7e9864ea6f732ed36602f460f51b)
+        ;
+
+        
+    
+    
+                marker_268c2fabfc65193b3118172cc59d2262.setIcon(icon_124bc21761ab8c428aea0e0c19d55d3c);
+            
+    
+            var marker_b0775572a070cefc1c6de676c5e2b17f = L.marker(
+                [42.50621, 1.52606],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_84915a9474b1ce66263893538a701007 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2b45e20ebd04b490f765a93f79fb0669 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_541825bc6becb6a64d33ef481ee4df25 = $(`<div id="html_541825bc6becb6a64d33ef481ee4df25" style="width: 100.0%; height: 100.0%;">Sala d'Exposicions del Govern<br>Andorra la Vella<br>Parc Central, AD500 Andorra la Vella</div>`)[0];
+                popup_2b45e20ebd04b490f765a93f79fb0669.setContent(html_541825bc6becb6a64d33ef481ee4df25);
+            
+        
+
+        marker_b0775572a070cefc1c6de676c5e2b17f.bindPopup(popup_2b45e20ebd04b490f765a93f79fb0669)
+        ;
+
+        
+    
+    
+                marker_b0775572a070cefc1c6de676c5e2b17f.setIcon(icon_84915a9474b1ce66263893538a701007);
+            
+    
+            var marker_5dfff0a64750ec3d91d43707d9c4d50b = L.marker(
+                [42.511441, 1.560624],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_fb4acfacf429d993e5261f3c1c00e305 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9bdb4e0fe826d37279b9ba5cdbd1633f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab27153e7816784ae63cd9cf45b1b909 = $(`<div id="html_ab27153e7816784ae63cd9cf45b1b909" style="width: 100.0%; height: 100.0%;">Església Sant Miquel d'Engolasters<br>Escaldes-Engordany<br>Sant Miquel d'Engolasters, AD700 Engolasters</div>`)[0];
+                popup_9bdb4e0fe826d37279b9ba5cdbd1633f.setContent(html_ab27153e7816784ae63cd9cf45b1b909);
+            
+        
+
+        marker_5dfff0a64750ec3d91d43707d9c4d50b.bindPopup(popup_9bdb4e0fe826d37279b9ba5cdbd1633f)
+        ;
+
+        
+    
+    
+                marker_5dfff0a64750ec3d91d43707d9c4d50b.setIcon(icon_fb4acfacf429d993e5261f3c1c00e305);
+            
+    
+            var marker_7ca65136055fe3185c4057d2e55ec7a4 = L.marker(
+                [42.508914, 1.541577],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_197670b7b1aa97e9d7ce0ed7f5e2ad81 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d6ae22c7a8fbbc34df04929f295e8838 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_139a32234557bb772240be6d4db948fe = $(`<div id="html_139a32234557bb772240be6d4db948fe" style="width: 100.0%; height: 100.0%;">Església Sant Pere Màrtir<br>Escaldes-Engordany<br>Sant Pere Màrtir, AD700 Escaldes-Engordany</div>`)[0];
+                popup_d6ae22c7a8fbbc34df04929f295e8838.setContent(html_139a32234557bb772240be6d4db948fe);
+            
+        
+
+        marker_7ca65136055fe3185c4057d2e55ec7a4.bindPopup(popup_d6ae22c7a8fbbc34df04929f295e8838)
+        ;
+
+        
+    
+    
+                marker_7ca65136055fe3185c4057d2e55ec7a4.setIcon(icon_197670b7b1aa97e9d7ce0ed7f5e2ad81);
+            
+    
+            var marker_3b7db4c6264717faef7e989384f6e6df = L.marker(
+                [42.50879, 1.54195],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_9d5019871f6b19ce7624d0658abcec22 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a5f3582355a124b0f31662b5b42a1837 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_48074bc882a98bc59cbd7911cdf0fa05 = $(`<div id="html_48074bc882a98bc59cbd7911cdf0fa05" style="width: 100.0%; height: 100.0%;">Museu Carmen Thyssen<br>Escaldes-Engordany<br>Av. Carlemany, 37, AD700 Escaldes-Engordany</div>`)[0];
+                popup_a5f3582355a124b0f31662b5b42a1837.setContent(html_48074bc882a98bc59cbd7911cdf0fa05);
+            
+        
+
+        marker_3b7db4c6264717faef7e989384f6e6df.bindPopup(popup_a5f3582355a124b0f31662b5b42a1837)
+        ;
+
+        
+    
+    
+                marker_3b7db4c6264717faef7e989384f6e6df.setIcon(icon_9d5019871f6b19ce7624d0658abcec22);
+            
+    
+            var marker_795c3d2517b0e95bf15e54b79816ce23 = L.marker(
+                [42.50879, 1.54092],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_69bb5095c6c371bbd3818d9ba36c41a1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9c632449f1cfeed285d368e225b30c08 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d06346a5bc703e57510c08515c63baa5 = $(`<div id="html_d06346a5bc703e57510c08515c63baa5" style="width: 100.0%; height: 100.0%;">Centre d'Art (CAEE)<br>Escaldes-Engordany<br>Av. de les Escoles, 2, AD700 Escaldes-Engordany</div>`)[0];
+                popup_9c632449f1cfeed285d368e225b30c08.setContent(html_d06346a5bc703e57510c08515c63baa5);
+            
+        
+
+        marker_795c3d2517b0e95bf15e54b79816ce23.bindPopup(popup_9c632449f1cfeed285d368e225b30c08)
+        ;
+
+        
+    
+    
+                marker_795c3d2517b0e95bf15e54b79816ce23.setIcon(icon_69bb5095c6c371bbd3818d9ba36c41a1);
+            
+    
+            var marker_a877ef8fd2e79380ed41d64daad5a23f = L.marker(
+                [42.50847, 1.53471],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_0fe994ce4214ac27a93e2c973b6d315a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ee484b1bda19ce316495d2ff3f0681ee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_062a83103b9734ef9e1c16e8cfb83768 = $(`<div id="html_062a83103b9734ef9e1c16e8cfb83768" style="width: 100.0%; height: 100.0%;">Museu del perfum<br>Escaldes-Engordany<br>Av. Carlemany, 115, AD700 Escaldes-Engordany</div>`)[0];
+                popup_ee484b1bda19ce316495d2ff3f0681ee.setContent(html_062a83103b9734ef9e1c16e8cfb83768);
+            
+        
+
+        marker_a877ef8fd2e79380ed41d64daad5a23f.bindPopup(popup_ee484b1bda19ce316495d2ff3f0681ee)
+        ;
+
+        
+    
+    
+                marker_a877ef8fd2e79380ed41d64daad5a23f.setIcon(icon_0fe994ce4214ac27a93e2c973b6d315a);
+            
+    
+            var marker_536815815c9f977ece00773ef8cadfbe = L.marker(
+                [42.50434, 1.555105],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_5673853797272271b37aa65f1305b07b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0dbb1b6ef531d9a0c58fc559b38af530 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a967885a54959e37b6b5e2a1d6b21d14 = $(`<div id="html_a967885a54959e37b6b5e2a1d6b21d14" style="width: 100.0%; height: 100.0%;">Vall del Madriu-Perafita-Claror<br>Escaldes-Engordany<br>Crta. de la Plana, AD700 Escaldes-Engordany</div>`)[0];
+                popup_0dbb1b6ef531d9a0c58fc559b38af530.setContent(html_a967885a54959e37b6b5e2a1d6b21d14);
+            
+        
+
+        marker_536815815c9f977ece00773ef8cadfbe.bindPopup(popup_0dbb1b6ef531d9a0c58fc559b38af530)
+        ;
+
+        
+    
+    
+                marker_536815815c9f977ece00773ef8cadfbe.setIcon(icon_5673853797272271b37aa65f1305b07b);
+            
+    
+            var marker_4278efddb8a2a15e961c01b1e8751301 = L.marker(
+                [42.50928, 1.54407],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_5c39493dd336a6262b478d87787dd3c6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8cebb44e0b497688e99077346355937b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b1255ab306b8889525ba7be59323a1df = $(`<div id="html_b1255ab306b8889525ba7be59323a1df" style="width: 100.0%; height: 100.0%;">Espai Caldes<br>Escaldes-Engordany<br>Av. Carlemany, 13-7, AD700 Escaldes-Engordany</div>`)[0];
+                popup_8cebb44e0b497688e99077346355937b.setContent(html_b1255ab306b8889525ba7be59323a1df);
+            
+        
+
+        marker_4278efddb8a2a15e961c01b1e8751301.bindPopup(popup_8cebb44e0b497688e99077346355937b)
+        ;
+
+        
+    
+    
+                marker_4278efddb8a2a15e961c01b1e8751301.setIcon(icon_5c39493dd336a6262b478d87787dd3c6);
+            
+    
+            var marker_75136996da646695d3ecb05fd06facc2 = L.marker(
+                [42.51467, 1.55351],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_94feca734632ed5cdce81d972e3dcc8e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0f14fbe4be135ed2b91d326043558f8b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7d6d71cffc5df7536990a9aaf7385c31 = $(`<div id="html_7d6d71cffc5df7536990a9aaf7385c31" style="width: 100.0%; height: 100.0%;">MW Museu de l'Electricitat<br>Encamp<br>Av. de la Bartra, s/n, Carretera CG, 2, AD200 Encamp</div>`)[0];
+                popup_0f14fbe4be135ed2b91d326043558f8b.setContent(html_7d6d71cffc5df7536990a9aaf7385c31);
+            
+        
+
+        marker_75136996da646695d3ecb05fd06facc2.bindPopup(popup_0f14fbe4be135ed2b91d326043558f8b)
+        ;
+
+        
+    
+    
+                marker_75136996da646695d3ecb05fd06facc2.setIcon(icon_94feca734632ed5cdce81d972e3dcc8e);
+            
+    
+            var marker_56576454c9ca37f987bf40261c5c2f05 = L.marker(
+                [42.52868, 1.56996],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_a80c90f6a29625a513bcf70bb5e95655 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c663615a34e7eeab9f107238ffae7834 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2419ed46b7f43a12a054e3a82902ed51 = $(`<div id="html_2419ed46b7f43a12a054e3a82902ed51" style="width: 100.0%; height: 100.0%;">Ràdio Andorra<br>Encamp<br>Edifici Ràdio Andorra, AD200 Encamp</div>`)[0];
+                popup_c663615a34e7eeab9f107238ffae7834.setContent(html_2419ed46b7f43a12a054e3a82902ed51);
+            
+        
+
+        marker_56576454c9ca37f987bf40261c5c2f05.bindPopup(popup_c663615a34e7eeab9f107238ffae7834)
+        ;
+
+        
+    
+    
+                marker_56576454c9ca37f987bf40261c5c2f05.setIcon(icon_a80c90f6a29625a513bcf70bb5e95655);
+            
+    
+            var marker_2b27b08fc764ff6d70b6dc32fa5e0751 = L.marker(
+                [42.53491, 1.57657],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_6f4d9a37fdf4a92a14351f20b0005aae = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_26f946c78d6a9c50f028de51dabb217d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cb35412172045d49c1cfa4ed3098d9ce = $(`<div id="html_cb35412172045d49c1cfa4ed3098d9ce" style="width: 100.0%; height: 100.0%;">Església Santa Eulàlia d'Encamp<br>Encamp<br>Carrer Santa Eulàlia, 1, AD200 Encamp</div>`)[0];
+                popup_26f946c78d6a9c50f028de51dabb217d.setContent(html_cb35412172045d49c1cfa4ed3098d9ce);
+            
+        
+
+        marker_2b27b08fc764ff6d70b6dc32fa5e0751.bindPopup(popup_26f946c78d6a9c50f028de51dabb217d)
+        ;
+
+        
+    
+    
+                marker_2b27b08fc764ff6d70b6dc32fa5e0751.setIcon(icon_6f4d9a37fdf4a92a14351f20b0005aae);
+            
+    
+            var marker_9913869fbd4d81665b55f4b03d69a3ea = L.marker(
+                [42.53325, 1.57803],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_2359b82cc94aa46cb44f56c6352a5469 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ceba6bb7182bb85e0c0593a4064c23b0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c452d1dd98847736abca0ca851ec2e3 = $(`<div id="html_1c452d1dd98847736abca0ca851ec2e3" style="width: 100.0%; height: 100.0%;">Museu Nacional de l'Automòbil<br>Encamp<br>Av. de Joan Martí, 64, AD200 Encamp</div>`)[0];
+                popup_ceba6bb7182bb85e0c0593a4064c23b0.setContent(html_1c452d1dd98847736abca0ca851ec2e3);
+            
+        
+
+        marker_9913869fbd4d81665b55f4b03d69a3ea.bindPopup(popup_ceba6bb7182bb85e0c0593a4064c23b0)
+        ;
+
+        
+    
+    
+                marker_9913869fbd4d81665b55f4b03d69a3ea.setIcon(icon_2359b82cc94aa46cb44f56c6352a5469);
+            
+    
+            var marker_d39929fbb578687c00dc9ab7508313cf = L.marker(
+                [42.5353, 1.58181],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_12a7872f607a52aeba405d92d3ba5736 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c5353738bf31619eb495d7476b94fabe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_506a84047142044259ef2b36827100e3 = $(`<div id="html_506a84047142044259ef2b36827100e3" style="width: 100.0%; height: 100.0%;">Església Sant Miquel de la Mosquera<br>Encamp<br>Carrer de Sant Miquel, AD200 Encamp</div>`)[0];
+                popup_c5353738bf31619eb495d7476b94fabe.setContent(html_506a84047142044259ef2b36827100e3);
+            
+        
+
+        marker_d39929fbb578687c00dc9ab7508313cf.bindPopup(popup_c5353738bf31619eb495d7476b94fabe)
+        ;
+
+        
+    
+    
+                marker_d39929fbb578687c00dc9ab7508313cf.setIcon(icon_12a7872f607a52aeba405d92d3ba5736);
+            
+    
+            var marker_5d54446ff1de6fe74bce40d5ba38d449 = L.marker(
+                [42.53548, 1.58248],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_e9a393381ce059cf3d26d1bdb877ce54 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2df512daaf40f8dc675d444babc0b647 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd6b24d7c4dee4c37fabac2cf367b9b9 = $(`<div id="html_bd6b24d7c4dee4c37fabac2cf367b9b9" style="width: 100.0%; height: 100.0%;">Museu Etnogràfic Casa Cristo<br>Encamp<br>Carrer dels Cavallers, 2, AD200 Encamp</div>`)[0];
+                popup_2df512daaf40f8dc675d444babc0b647.setContent(html_bd6b24d7c4dee4c37fabac2cf367b9b9);
+            
+        
+
+        marker_5d54446ff1de6fe74bce40d5ba38d449.bindPopup(popup_2df512daaf40f8dc675d444babc0b647)
+        ;
+
+        
+    
+    
+                marker_5d54446ff1de6fe74bce40d5ba38d449.setIcon(icon_e9a393381ce059cf3d26d1bdb877ce54);
+            
+    
+            var marker_3766be3adcdcebbeae45522a7bd55baf = L.marker(
+                [42.539161, 1.587154],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_c10ed3cc8fafef5fcf500bb9a4497b93 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d13d1ce7eb50dbb09b6fd17ab6fff3b8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ffb25193081f377f4056522642a9b4e6 = $(`<div id="html_ffb25193081f377f4056522642a9b4e6" style="width: 100.0%; height: 100.0%;">Església Sant Romà de les Bons<br>Encamp<br>Torre de los Moros, AD200 Encamp</div>`)[0];
+                popup_d13d1ce7eb50dbb09b6fd17ab6fff3b8.setContent(html_ffb25193081f377f4056522642a9b4e6);
+            
+        
+
+        marker_3766be3adcdcebbeae45522a7bd55baf.bindPopup(popup_d13d1ce7eb50dbb09b6fd17ab6fff3b8)
+        ;
+
+        
+    
+    
+                marker_3766be3adcdcebbeae45522a7bd55baf.setIcon(icon_c10ed3cc8fafef5fcf500bb9a4497b93);
+            
+    
+            var marker_34007ac370899df99076dc29c4e8c753 = L.marker(
+                [42.535127, 1.717252],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_3c2a797af5e34a097fd53b3aba00d5fd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6d0af34c2faaf2980690f6ed5001348e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e1726dfc914e3f56a80f4aeea7d80229 = $(`<div id="html_e1726dfc914e3f56a80f4aeea7d80229" style="width: 100.0%; height: 100.0%;">Sud Ràdio<br>Encamp<br>Pic Blanc, AD200 Encamp</div>`)[0];
+                popup_6d0af34c2faaf2980690f6ed5001348e.setContent(html_e1726dfc914e3f56a80f4aeea7d80229);
+            
+        
+
+        marker_34007ac370899df99076dc29c4e8c753.bindPopup(popup_6d0af34c2faaf2980690f6ed5001348e)
+        ;
+
+        
+    
+    
+                marker_34007ac370899df99076dc29c4e8c753.setIcon(icon_3c2a797af5e34a097fd53b3aba00d5fd);
+            
+    
+            var marker_5292d35bbc943e9d7fef06901a2c3f54 = L.marker(
+                [42.53491, 1.57657],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_5009bcd30af6c1711bca558cf02e97a2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_759cf7857da93ba68e302000c0fc0da3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab21e835354987e015e6e5f2879121c1 = $(`<div id="html_ab21e835354987e015e6e5f2879121c1" style="width: 100.0%; height: 100.0%;">Museu d'Art Sacre<br>Encamp<br>Placeta de Santa Eulàlia, AD200 Encamp</div>`)[0];
+                popup_759cf7857da93ba68e302000c0fc0da3.setContent(html_ab21e835354987e015e6e5f2879121c1);
+            
+        
+
+        marker_5292d35bbc943e9d7fef06901a2c3f54.bindPopup(popup_759cf7857da93ba68e302000c0fc0da3)
+        ;
+
+        
+    
+    
+                marker_5292d35bbc943e9d7fef06901a2c3f54.setIcon(icon_5009bcd30af6c1711bca558cf02e97a2);
+            
+    
+            var marker_f9b7e1d1f11ad59db244493f8b536113 = L.marker(
+                [42.55539, 1.53332],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_58c07b9fcfa3c4a2384252414d11b38b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9adb56d8505788662540da5e725f6bdd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_160dd4f7b4cde2e82ee9aa08c034036d = $(`<div id="html_160dd4f7b4cde2e82ee9aa08c034036d" style="width: 100.0%; height: 100.0%;">Museu de la Miniatura<br>Ordino<br>Amatista, Carrer Mossèn Cinto Verdaguer, 2, AD300 Ordino</div>`)[0];
+                popup_9adb56d8505788662540da5e725f6bdd.setContent(html_160dd4f7b4cde2e82ee9aa08c034036d);
+            
+        
+
+        marker_f9b7e1d1f11ad59db244493f8b536113.bindPopup(popup_9adb56d8505788662540da5e725f6bdd)
+        ;
+
+        
+    
+    
+                marker_f9b7e1d1f11ad59db244493f8b536113.setIcon(icon_58c07b9fcfa3c4a2384252414d11b38b);
+            
+    
+            var marker_59cdeb1028aca23e10b920b6606e78b6 = L.marker(
+                [42.55661, 1.53408],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_73828c4bfa25d53c8bd4251694daf7df = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_931f3ec120f8a4d8995569c79da6c959 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_12f590102ac9bd9199b02f68f980697f = $(`<div id="html_12f590102ac9bd9199b02f68f980697f" style="width: 100.0%; height: 100.0%;">Museu Casa d'Areny-Plandolit<br>Ordino<br>Carrer Major, 11, AD300 Ordino</div>`)[0];
+                popup_931f3ec120f8a4d8995569c79da6c959.setContent(html_12f590102ac9bd9199b02f68f980697f);
+            
+        
+
+        marker_59cdeb1028aca23e10b920b6606e78b6.bindPopup(popup_931f3ec120f8a4d8995569c79da6c959)
+        ;
+
+        
+    
+    
+                marker_59cdeb1028aca23e10b920b6606e78b6.setIcon(icon_73828c4bfa25d53c8bd4251694daf7df);
+            
+    
+            var marker_4ebc1c479f10bda30a8b73e47ada7646 = L.marker(
+                [42.5563, 1.53395],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_4cf4b8016d09ba57d849534ae533b221 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_89cbd7be308ff5504d6b8c01da9a26aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eff7a8c53b2942156f7b0f0f93fcbd0e = $(`<div id="html_eff7a8c53b2942156f7b0f0f93fcbd0e" style="width: 100.0%; height: 100.0%;">Casa Rossell<br>Ordino<br>Capella Casa Rossell, AD300 Ordino</div>`)[0];
+                popup_89cbd7be308ff5504d6b8c01da9a26aa.setContent(html_eff7a8c53b2942156f7b0f0f93fcbd0e);
+            
+        
+
+        marker_4ebc1c479f10bda30a8b73e47ada7646.bindPopup(popup_89cbd7be308ff5504d6b8c01da9a26aa)
+        ;
+
+        
+    
+    
+                marker_4ebc1c479f10bda30a8b73e47ada7646.setIcon(icon_4cf4b8016d09ba57d849534ae533b221);
+            
+    
+            var marker_21b0365db286f9d856a5e8a51a1d3ed3 = L.marker(
+                [42.55688, 1.53278],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_e1562998e07dd2e3bc8fe12c67c1ac69 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c98b025fc1db1c8451d3f602268cb510 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_250bf27cc9bc77209c101f722d05741d = $(`<div id="html_250bf27cc9bc77209c101f722d05741d" style="width: 100.0%; height: 100.0%;">Església Sant Corneli i Sant Cebrià<br>Ordino<br>Església de Sant Corneli i Sant Cebrià, AD300 Ordino</div>`)[0];
+                popup_c98b025fc1db1c8451d3f602268cb510.setContent(html_250bf27cc9bc77209c101f722d05741d);
+            
+        
+
+        marker_21b0365db286f9d856a5e8a51a1d3ed3.bindPopup(popup_c98b025fc1db1c8451d3f602268cb510)
+        ;
+
+        
+    
+    
+                marker_21b0365db286f9d856a5e8a51a1d3ed3.setIcon(icon_e1562998e07dd2e3bc8fe12c67c1ac69);
+            
+    
+            var marker_b8f0e1cfb2754f833be75ffe52f09687 = L.marker(
+                [42.57599, 1.51893],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_4721cc84d3bd90191b7250785f31beb7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2f64501f5cb31a87b2f8b051a2ed6f66 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3b58a029bd537aff0eaa03b2ddcabdf1 = $(`<div id="html_3b58a029bd537aff0eaa03b2ddcabdf1" style="width: 100.0%; height: 100.0%;">Cal Pal de la Cortinada<br>Ordino<br>Carrerde Pal, 1, AD300 La Cortinada</div>`)[0];
+                popup_2f64501f5cb31a87b2f8b051a2ed6f66.setContent(html_3b58a029bd537aff0eaa03b2ddcabdf1);
+            
+        
+
+        marker_b8f0e1cfb2754f833be75ffe52f09687.bindPopup(popup_2f64501f5cb31a87b2f8b051a2ed6f66)
+        ;
+
+        
+    
+    
+                marker_b8f0e1cfb2754f833be75ffe52f09687.setIcon(icon_4721cc84d3bd90191b7250785f31beb7);
+            
+    
+            var marker_ab757646fc1e55c10c2b14d069eaf33f = L.marker(
+                [42.576735, 1.517941],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_64f3a1b739b48b0e8cdc3bdf670e7ac6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6daaa1d72999774b01bf054fdae684cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3104b1e24393f5cb0e544fa4bd5e13ab = $(`<div id="html_3104b1e24393f5cb0e544fa4bd5e13ab" style="width: 100.0%; height: 100.0%;">Església Sant Martí de la Cortinada<br>Ordino<br>CG-3, 111, AD300 La Cortinada</div>`)[0];
+                popup_6daaa1d72999774b01bf054fdae684cc.setContent(html_3104b1e24393f5cb0e544fa4bd5e13ab);
+            
+        
+
+        marker_ab757646fc1e55c10c2b14d069eaf33f.bindPopup(popup_6daaa1d72999774b01bf054fdae684cc)
+        ;
+
+        
+    
+    
+                marker_ab757646fc1e55c10c2b14d069eaf33f.setIcon(icon_64f3a1b739b48b0e8cdc3bdf670e7ac6);
+            
+    
+            var marker_f35b26e607aa930f65c67ddfa9766c79 = L.marker(
+                [42.576903, 1.517823],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_3314fda02ed7c7f50395a6b534d1d1f6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c8e7058bef5de157c3960f2a57dbc5dd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_988d12d52c9fca2bc835fdd8842939c0 = $(`<div id="html_988d12d52c9fca2bc835fdd8842939c0" style="width: 100.0%; height: 100.0%;">Mola i serradora de Cal Pal<br>Ordino<br>Mola i Serradora de cal Pal, AD300 La Cortinada</div>`)[0];
+                popup_c8e7058bef5de157c3960f2a57dbc5dd.setContent(html_988d12d52c9fca2bc835fdd8842939c0);
+            
+        
+
+        marker_f35b26e607aa930f65c67ddfa9766c79.bindPopup(popup_c8e7058bef5de157c3960f2a57dbc5dd)
+        ;
+
+        
+    
+    
+                marker_f35b26e607aa930f65c67ddfa9766c79.setIcon(icon_3314fda02ed7c7f50395a6b534d1d1f6);
+            
+    
+            var marker_47f4585be404aa4fcbf6985175cc45ff = L.marker(
+                [42.599931, 1.5322864],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_23cd4dbd7e224465660ae4039ed25882 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_29fe6426559bc447a7929c50fac21dee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_87fe884b38b04aaf1a11274410d8c359 = $(`<div id="html_87fe884b38b04aaf1a11274410d8c359" style="width: 100.0%; height: 100.0%;">Mina de Llorts<br>Ordino<br>Mina de Llorts, AD300 Ordino</div>`)[0];
+                popup_29fe6426559bc447a7929c50fac21dee.setContent(html_87fe884b38b04aaf1a11274410d8c359);
+            
+        
+
+        marker_47f4585be404aa4fcbf6985175cc45ff.bindPopup(popup_29fe6426559bc447a7929c50fac21dee)
+        ;
+
+        
+    
+    
+                marker_47f4585be404aa4fcbf6985175cc45ff.setIcon(icon_23cd4dbd7e224465660ae4039ed25882);
+            
+    
+            var marker_833f13cb8e2eb5a2d27346bd059be0a6 = L.marker(
+                [42.60045, 1.53354],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_6da6aa669a20a9cb683a10c721097ab2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_76244524ea4596c6d97a77149e58908d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_43d75fe27171c4297457c00a351dfaa0 = $(`<div id="html_43d75fe27171c4297457c00a351dfaa0" style="width: 100.0%; height: 100.0%;">Ruta del Ferro<br>Ordino<br>Camí les Mines, AD300 Ordino</div>`)[0];
+                popup_76244524ea4596c6d97a77149e58908d.setContent(html_43d75fe27171c4297457c00a351dfaa0);
+            
+        
+
+        marker_833f13cb8e2eb5a2d27346bd059be0a6.bindPopup(popup_76244524ea4596c6d97a77149e58908d)
+        ;
+
+        
+    
+    
+                marker_833f13cb8e2eb5a2d27346bd059be0a6.setIcon(icon_6da6aa669a20a9cb683a10c721097ab2);
+            
+    
+            var marker_47e8f81fc7ae736f7f46f317df2c1c5d = L.marker(
+                [42.546119, 1.475139],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_ae96fcfe9b6fe0ddc1d16497ba6564d9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_46c0e9ef077551a5cd79a02ed9916253 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a8f6c69cb2ca4bcb52cabfd64567460b = $(`<div id="html_a8f6c69cb2ca4bcb52cabfd64567460b" style="width: 100.0%; height: 100.0%;">Església Sant Climent de Pal<br>La Massana<br>Església Sant Climent de Pal, AD400 Pal</div>`)[0];
+                popup_46c0e9ef077551a5cd79a02ed9916253.setContent(html_a8f6c69cb2ca4bcb52cabfd64567460b);
+            
+        
+
+        marker_47e8f81fc7ae736f7f46f317df2c1c5d.bindPopup(popup_46c0e9ef077551a5cd79a02ed9916253)
+        ;
+
+        
+    
+    
+                marker_47e8f81fc7ae736f7f46f317df2c1c5d.setIcon(icon_ae96fcfe9b6fe0ddc1d16497ba6564d9);
+            
+    
+            var marker_0a8c9db0f291ef1aa1cd3a378df53322 = L.marker(
+                [42.532492, 1.514369],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_2f9615a63bc1dfac059d479a5782c62c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e0e1a6ed781f9aca4d271d92f9404fce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_342f451de079f0f02051f4304e1510a7 = $(`<div id="html_342f451de079f0f02051f4304e1510a7" style="width: 100.0%; height: 100.0%;">Museu Casa Rull<br>La Massana<br>Carrer Major, 18-32, AD400 Sispony</div>`)[0];
+                popup_e0e1a6ed781f9aca4d271d92f9404fce.setContent(html_342f451de079f0f02051f4304e1510a7);
+            
+        
+
+        marker_0a8c9db0f291ef1aa1cd3a378df53322.bindPopup(popup_e0e1a6ed781f9aca4d271d92f9404fce)
+        ;
+
+        
+    
+    
+                marker_0a8c9db0f291ef1aa1cd3a378df53322.setIcon(icon_2f9615a63bc1dfac059d479a5782c62c);
+            
+    
+            var marker_7f6de34cca80249a40b9e3a10102bbf1 = L.marker(
+                [42.5351, 1.524351],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_0f01f2ec21d9d01d4eb980812b15408b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_827015cda997c965a65c4603a05687c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0f8cd5787fffdeca3f8e0ae10929622b = $(`<div id="html_0f8cd5787fffdeca3f8e0ae10929622b" style="width: 100.0%; height: 100.0%;">Esglèsia Sant Cristòfol d'Anyòs<br>La Massana<br>La Massana, AD400 La Massana</div>`)[0];
+                popup_827015cda997c965a65c4603a05687c3.setContent(html_0f8cd5787fffdeca3f8e0ae10929622b);
+            
+        
+
+        marker_7f6de34cca80249a40b9e3a10102bbf1.bindPopup(popup_827015cda997c965a65c4603a05687c3)
+        ;
+
+        
+    
+    
+                marker_7f6de34cca80249a40b9e3a10102bbf1.setIcon(icon_0f01f2ec21d9d01d4eb980812b15408b);
+            
+    
+            var marker_16d40bb71e9f7b2d4f0218b61cf24942 = L.marker(
+                [42.54616, 1.52111],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_c6e2bdc39d1f7eda1b625537ec650893 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_af29358e6c9af933e3a2d719f827701d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e32521f8c6bbeb420129fbd253bbfd8e = $(`<div id="html_e32521f8c6bbeb420129fbd253bbfd8e" style="width: 100.0%; height: 100.0%;">La Farga Rossell<br>La Massana<br>Av. del Lloser, AD400 La Massana</div>`)[0];
+                popup_af29358e6c9af933e3a2d719f827701d.setContent(html_e32521f8c6bbeb420129fbd253bbfd8e);
+            
+        
+
+        marker_16d40bb71e9f7b2d4f0218b61cf24942.bindPopup(popup_af29358e6c9af933e3a2d719f827701d)
+        ;
+
+        
+    
+    
+                marker_16d40bb71e9f7b2d4f0218b61cf24942.setIcon(icon_c6e2bdc39d1f7eda1b625537ec650893);
+            
+    
+            var marker_32e5d6d0987d1958c859beed8ab7429d = L.marker(
+                [42.545175, 1.514129],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_f60adcd28b8aff30e3e68acd7e7adc0e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cfc40d2248a563a003447482bdc06a57 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2831f189cb082972a462fcdb677ff0bd = $(`<div id="html_2831f189cb082972a462fcdb677ff0bd" style="width: 100.0%; height: 100.0%;">Església Sant Iscle i Santa Victòria<br>La Massana<br>Camí de l'Església, AD400 La Massana</div>`)[0];
+                popup_cfc40d2248a563a003447482bdc06a57.setContent(html_2831f189cb082972a462fcdb677ff0bd);
+            
+        
+
+        marker_32e5d6d0987d1958c859beed8ab7429d.bindPopup(popup_cfc40d2248a563a003447482bdc06a57)
+        ;
+
+        
+    
+    
+                marker_32e5d6d0987d1958c859beed8ab7429d.setIcon(icon_f60adcd28b8aff30e3e68acd7e7adc0e);
+            
+    
+            var marker_100f29f16390207469a7f4c0c43c7d7c = L.marker(
+                [42.54671, 1.51456],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_dd5e0616e556dd0f906d6ac6f2ac2dd0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_126984b63e5ecd1c4c603d2ab50ecf2f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d46f951a7210fa0d3018247ef0ffc02e = $(`<div id="html_d46f951a7210fa0d3018247ef0ffc02e" style="width: 100.0%; height: 100.0%;">Museu la Massana Còmic<br>La Massana<br>Plaça de les Fontetes, AD400 La Massana</div>`)[0];
+                popup_126984b63e5ecd1c4c603d2ab50ecf2f.setContent(html_d46f951a7210fa0d3018247ef0ffc02e);
+            
+        
+
+        marker_100f29f16390207469a7f4c0c43c7d7c.bindPopup(popup_126984b63e5ecd1c4c603d2ab50ecf2f)
+        ;
+
+        
+    
+    
+                marker_100f29f16390207469a7f4c0c43c7d7c.setIcon(icon_dd5e0616e556dd0f906d6ac6f2ac2dd0);
+            
+    
+            var marker_817061a239974536d418088ef8734eaa = L.marker(
+                [42.474592, 1.452143],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_c64b0bbd4c34ba596b82d1d961a2ba7a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fcc11a6f2732fb96974bdee52fd804cd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3ed16d9f4f6f8ed65a1d5b717c40ade9 = $(`<div id="html_3ed16d9f4f6f8ed65a1d5b717c40ade9" style="width: 100.0%; height: 100.0%;">Santuari de Canòlich<br>Sant Julià de Lòria<br>Santuari de la Mare de Déu Canólich, AD600 Sant Julià de Lòria</div>`)[0];
+                popup_fcc11a6f2732fb96974bdee52fd804cd.setContent(html_3ed16d9f4f6f8ed65a1d5b717c40ade9);
+            
+        
+
+        marker_817061a239974536d418088ef8734eaa.bindPopup(popup_fcc11a6f2732fb96974bdee52fd804cd)
+        ;
+
+        
+    
+    
+                marker_817061a239974536d418088ef8734eaa.setIcon(icon_c64b0bbd4c34ba596b82d1d961a2ba7a);
+            
+    
+            var marker_015268faa0c84d4708bb5d7b6875750c = L.marker(
+                [42.463835, 1.491163],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_d7d93c4a64576de2fc2a3440751480a4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2b51971879187a1eed7954c35ca6fa26 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c392741ab41cfcf8f60ecc1af7ad80aa = $(`<div id="html_c392741ab41cfcf8f60ecc1af7ad80aa" style="width: 100.0%; height: 100.0%;">Esglèsia Sant Julià i Sant Germà<br>Sant Julià de Lòria<br>Plaça de Sant Roc, AD600 Sant Julià de Lòria</div>`)[0];
+                popup_2b51971879187a1eed7954c35ca6fa26.setContent(html_c392741ab41cfcf8f60ecc1af7ad80aa);
+            
+        
+
+        marker_015268faa0c84d4708bb5d7b6875750c.bindPopup(popup_2b51971879187a1eed7954c35ca6fa26)
+        ;
+
+        
+    
+    
+                marker_015268faa0c84d4708bb5d7b6875750c.setIcon(icon_d7d93c4a64576de2fc2a3440751480a4);
+            
+    
+            var marker_141fa97e7de1c7da7128e232e491a4eb = L.marker(
+                [42.4635, 1.4915],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_9828d14c1dcb1fa7291e29c71198a180 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6d11969e83401ef13525b301ac60e881 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5958ab3e3a946de7280c71d6273d9525 = $(`<div id="html_5958ab3e3a946de7280c71d6273d9525" style="width: 100.0%; height: 100.0%;">Sala Sergi Mas<br>Sant Julià de Lòria<br>Carrer de la Germandat, AD600 Sant Julià de Lòria</div>`)[0];
+                popup_6d11969e83401ef13525b301ac60e881.setContent(html_5958ab3e3a946de7280c71d6273d9525);
+            
+        
+
+        marker_141fa97e7de1c7da7128e232e491a4eb.bindPopup(popup_6d11969e83401ef13525b301ac60e881)
+        ;
+
+        
+    
+    
+                marker_141fa97e7de1c7da7128e232e491a4eb.setIcon(icon_9828d14c1dcb1fa7291e29c71198a180);
+            
+    
+            var marker_3ee84bade4cac56403845f086f35100c = L.marker(
+                [42.469747, 1.501146],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_40631e85776413f75a7f381675a04802 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1012e4148c87b99ebee573a7df52b079 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_280e2e4af89ccd4f9faa5a8c65141d30 = $(`<div id="html_280e2e4af89ccd4f9faa5a8c65141d30" style="width: 100.0%; height: 100.0%;">Esglèsia Sant Serni de Nagol<br>Sant Julià de Lòria<br>Crta. de Certers, AD600 Sant Julià de Lòria</div>`)[0];
+                popup_1012e4148c87b99ebee573a7df52b079.setContent(html_280e2e4af89ccd4f9faa5a8c65141d30);
+            
+        
+
+        marker_3ee84bade4cac56403845f086f35100c.bindPopup(popup_1012e4148c87b99ebee573a7df52b079)
+        ;
+
+        
+    
+    
+                marker_3ee84bade4cac56403845f086f35100c.setIcon(icon_40631e85776413f75a7f381675a04802);
+            
+    
+            var marker_38cbe34fa3a68abac937c1351c7b0e7c = L.marker(
+                [42.55478, 1.59079],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_e10276635e13e61d365ad93cfbd9087e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8cfd6a0b3aadd65db6a18f4ac18efed7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_761e68ed439db11091897184436160db = $(`<div id="html_761e68ed439db11091897184436160db" style="width: 100.0%; height: 100.0%;">Santuari de Meritxell<br>Canillo<br>Camí de la Borreva, 6, AD100 Meritxell</div>`)[0];
+                popup_8cfd6a0b3aadd65db6a18f4ac18efed7.setContent(html_761e68ed439db11091897184436160db);
+            
+        
+
+        marker_38cbe34fa3a68abac937c1351c7b0e7c.bindPopup(popup_8cfd6a0b3aadd65db6a18f4ac18efed7)
+        ;
+
+        
+    
+    
+                marker_38cbe34fa3a68abac937c1351c7b0e7c.setIcon(icon_e10276635e13e61d365ad93cfbd9087e);
+            
+    
+            var marker_19d9ae5abec275f30fd9c4e414a606c0 = L.marker(
+                [42.567605, 1.597536],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_18b0a00f4f8eed308f4f93ab8067d93c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_079f813ed169704257ae15992ae38328 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d7f1b3e88452212d3ad65a35d283ddb = $(`<div id="html_2d7f1b3e88452212d3ad65a35d283ddb" style="width: 100.0%; height: 100.0%;">Esglèsia Sant Serni<br>Canillo<br>Callissa de Roda, 21, AD100 Canillo</div>`)[0];
+                popup_079f813ed169704257ae15992ae38328.setContent(html_2d7f1b3e88452212d3ad65a35d283ddb);
+            
+        
+
+        marker_19d9ae5abec275f30fd9c4e414a606c0.bindPopup(popup_079f813ed169704257ae15992ae38328)
+        ;
+
+        
+    
+    
+                marker_19d9ae5abec275f30fd9c4e414a606c0.setIcon(icon_18b0a00f4f8eed308f4f93ab8067d93c);
+            
+    
+            var marker_40472a1ee2d0e896f3e3ac162230d147 = L.marker(
+                [42.5664, 1.60098],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_719882865dbad7849ddf309e4e2758e1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f9c8433f638efc5f6056015f7905a3f2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3da692fe733d83b33841f0a93a94ee28 = $(`<div id="html_3da692fe733d83b33841f0a93a94ee28" style="width: 100.0%; height: 100.0%;">Espai Galobardes<br>Canillo<br>Plaça Carlemany, 4, AD100 Canillo</div>`)[0];
+                popup_f9c8433f638efc5f6056015f7905a3f2.setContent(html_3da692fe733d83b33841f0a93a94ee28);
+            
+        
+
+        marker_40472a1ee2d0e896f3e3ac162230d147.bindPopup(popup_f9c8433f638efc5f6056015f7905a3f2)
+        ;
+
+        
+    
+    
+                marker_40472a1ee2d0e896f3e3ac162230d147.setIcon(icon_719882865dbad7849ddf309e4e2758e1);
+            
+    
+            var marker_554edef6adb8c99c6806eb1282f6cfc0 = L.marker(
+                [42.56599, 1.60127],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_745177bff41ab7d07c4056bfbd99d60b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_88a82bba7617fa2be23864209917f39a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9684f503dd38d626a3a12150080e3b7c = $(`<div id="html_9684f503dd38d626a3a12150080e3b7c" style="width: 100.0%; height: 100.0%;">Museu de la Moto<br>Canillo<br>Telecabina de Canillo, AD100 Canillo</div>`)[0];
+                popup_88a82bba7617fa2be23864209917f39a.setContent(html_9684f503dd38d626a3a12150080e3b7c);
+            
+        
+
+        marker_554edef6adb8c99c6806eb1282f6cfc0.bindPopup(popup_88a82bba7617fa2be23864209917f39a)
+        ;
+
+        
+    
+    
+                marker_554edef6adb8c99c6806eb1282f6cfc0.setIcon(icon_745177bff41ab7d07c4056bfbd99d60b);
+            
+    
+            var marker_f7a2fa123928bc86be647de94e67802e = L.marker(
+                [42.57098, 1.60814],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_f66c206e60f716245e0fa6c2a5e1b192 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ec3a5cb7593ab3d6562b2f2f2c4c7f4c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_016c7448d799791b22ce29eea13f370e = $(`<div id="html_016c7448d799791b22ce29eea13f370e" style="width: 100.0%; height: 100.0%;">Esglèsia Sant Joan de Caselles<br>Canillo<br>Av. Sant Joan de Caselles, s/n, AD100 Canillo</div>`)[0];
+                popup_ec3a5cb7593ab3d6562b2f2f2c4c7f4c.setContent(html_016c7448d799791b22ce29eea13f370e);
+            
+        
+
+        marker_f7a2fa123928bc86be647de94e67802e.bindPopup(popup_ec3a5cb7593ab3d6562b2f2f2c4c7f4c)
+        ;
+
+        
+    
+    
+                marker_f7a2fa123928bc86be647de94e67802e.setIcon(icon_f66c206e60f716245e0fa6c2a5e1b192);
+            
+    
+            var marker_0047a3a48c29512d019f41188d376bb5 = L.marker(
+                [42.50708, 1.52428],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_a8c636166f7bed7b3168dc14ea6baf9b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b2c54f5aa5eb3d92f67049d32cd8bc6e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f080174304391ea703bbdb2bcb0a8b7d = $(`<div id="html_f080174304391ea703bbdb2bcb0a8b7d" style="width: 100.0%; height: 100.0%;">Unnic<br>Andorra la Vella<br>Carrer Prat de la Creu, 40, AD500 Andorra la Vella</div>`)[0];
+                popup_b2c54f5aa5eb3d92f67049d32cd8bc6e.setContent(html_f080174304391ea703bbdb2bcb0a8b7d);
+            
+        
+
+        marker_0047a3a48c29512d019f41188d376bb5.bindPopup(popup_b2c54f5aa5eb3d92f67049d32cd8bc6e)
+        ;
+
+        
+    
+    
+                marker_0047a3a48c29512d019f41188d376bb5.setIcon(icon_a8c636166f7bed7b3168dc14ea6baf9b);
+            
+    
+            var marker_9a08bf24d1152b24b3986bb29cab0680 = L.marker(
+                [42.50337, 1.51953],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_d8c3f8f9d671b57854399b07bd17478e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_864b4599617c50ac95aac3bad1c26104 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ecd11935209f41cf7198181f36d9650 = $(`<div id="html_8ecd11935209f41cf7198181f36d9650" style="width: 100.0%; height: 100.0%;">Kapital<br>Andorra la Vella<br>Crta. de la Plana, n°2, AD500 Andorra la Vella</div>`)[0];
+                popup_864b4599617c50ac95aac3bad1c26104.setContent(html_8ecd11935209f41cf7198181f36d9650);
+            
+        
+
+        marker_9a08bf24d1152b24b3986bb29cab0680.bindPopup(popup_864b4599617c50ac95aac3bad1c26104)
+        ;
+
+        
+    
+    
+                marker_9a08bf24d1152b24b3986bb29cab0680.setIcon(icon_d8c3f8f9d671b57854399b07bd17478e);
+            
+    
+            var marker_7068a98285824d492442d047239c7a3d = L.marker(
+                [42.5058, 1.52145],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_b6de59bd15481ea97cfa7ba0631a9720 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5f4c90db96a42ebefd0ff9b24eee6d09 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f704e52f71470477cf3fd15c9fe5034 = $(`<div id="html_9f704e52f71470477cf3fd15c9fe5034" style="width: 100.0%; height: 100.0%;">Borda Pairal 1630<br>Andorra la Vella<br>Carrer Dr. Vilanova, 7, AD500 Andorra la Vella</div>`)[0];
+                popup_5f4c90db96a42ebefd0ff9b24eee6d09.setContent(html_9f704e52f71470477cf3fd15c9fe5034);
+            
+        
+
+        marker_7068a98285824d492442d047239c7a3d.bindPopup(popup_5f4c90db96a42ebefd0ff9b24eee6d09)
+        ;
+
+        
+    
+    
+                marker_7068a98285824d492442d047239c7a3d.setIcon(icon_b6de59bd15481ea97cfa7ba0631a9720);
+            
+    
+            var marker_61b6cef8b033c4a4cf87b9fd3034758f = L.marker(
+                [42.50531, 1.51834],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_f31aedc8b2c93aa5a9b4443cf1ddb31d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1565fd66225273c3254df221200a7d47 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_673b52991da665e2490adb7642a46373 = $(`<div id="html_673b52991da665e2490adb7642a46373" style="width: 100.0%; height: 100.0%;">Bar Restaurant Estela<br>Andorra la Vella<br>Baixada del Molí, 19, AD500 Andorra la Vella</div>`)[0];
+                popup_1565fd66225273c3254df221200a7d47.setContent(html_673b52991da665e2490adb7642a46373);
+            
+        
+
+        marker_61b6cef8b033c4a4cf87b9fd3034758f.bindPopup(popup_1565fd66225273c3254df221200a7d47)
+        ;
+
+        
+    
+    
+                marker_61b6cef8b033c4a4cf87b9fd3034758f.setIcon(icon_f31aedc8b2c93aa5a9b4443cf1ddb31d);
+            
+    
+            var marker_3082b090fcb16a63bf30924c016d5230 = L.marker(
+                [42.50581, 1.52833],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_02515ab7744a4e8f5c01d561e0371462 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_10210aa72d070f6291ad577c3eccf8ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d826138792d78d8e5490cad8879aaf0 = $(`<div id="html_1d826138792d78d8e5490cad8879aaf0" style="width: 100.0%; height: 100.0%;">Bar 4 i Tres<br>Andorra la Vella<br>Carrer Bonavenutra Riberaygua, 43, AD500 Andorra la Vella</div>`)[0];
+                popup_10210aa72d070f6291ad577c3eccf8ac.setContent(html_1d826138792d78d8e5490cad8879aaf0);
+            
+        
+
+        marker_3082b090fcb16a63bf30924c016d5230.bindPopup(popup_10210aa72d070f6291ad577c3eccf8ac)
+        ;
+
+        
+    
+    
+                marker_3082b090fcb16a63bf30924c016d5230.setIcon(icon_02515ab7744a4e8f5c01d561e0371462);
+            
+    
+            var marker_2b9f3be9a4d0e3e8094642eddf52e8fb = L.marker(
+                [42.50666, 1.53145],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_af57a4fdf5136435e646dab069f67128 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7ef71ea211a4716c3a2b71753d65db7a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f54b42d0b499a39fbac9ba9ab10508b0 = $(`<div id="html_f54b42d0b499a39fbac9ba9ab10508b0" style="width: 100.0%; height: 100.0%;">El Rana Bar<br>Andorra la Vella<br>Carrer de na Maria Pla, 28, AD500 Andorra la Vella</div>`)[0];
+                popup_7ef71ea211a4716c3a2b71753d65db7a.setContent(html_f54b42d0b499a39fbac9ba9ab10508b0);
+            
+        
+
+        marker_2b9f3be9a4d0e3e8094642eddf52e8fb.bindPopup(popup_7ef71ea211a4716c3a2b71753d65db7a)
+        ;
+
+        
+    
+    
+                marker_2b9f3be9a4d0e3e8094642eddf52e8fb.setIcon(icon_af57a4fdf5136435e646dab069f67128);
+            
+    
+            var marker_8793ef9aa067138ab887b9d3ad125996 = L.marker(
+                [42.50699, 1.5326],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_54bf231730cd6aec4b251d6856a6a219 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_24df0ec59f7860ce74e68af2596e84b0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3eec04b29c5182094a94f393267d223f = $(`<div id="html_3eec04b29c5182094a94f393267d223f" style="width: 100.0%; height: 100.0%;">Instants Restaurant<br>Andorra la Vella<br>Carrer de na Maria Pla, 19, AD500 Andorra la Vella</div>`)[0];
+                popup_24df0ec59f7860ce74e68af2596e84b0.setContent(html_3eec04b29c5182094a94f393267d223f);
+            
+        
+
+        marker_8793ef9aa067138ab887b9d3ad125996.bindPopup(popup_24df0ec59f7860ce74e68af2596e84b0)
+        ;
+
+        
+    
+    
+                marker_8793ef9aa067138ab887b9d3ad125996.setIcon(icon_54bf231730cd6aec4b251d6856a6a219);
+            
+    
+            var marker_a2d5f2b142f58d60bde760dff231e6e0 = L.marker(
+                [42.50916, 1.53607],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_c32a0e850ab46618a7b240815429af7e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_421668d43bc68e571a73d4da74fac466 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6126cd2c83a6260ad445c39bc365aae8 = $(`<div id="html_6126cd2c83a6260ad445c39bc365aae8" style="width: 100.0%; height: 100.0%;">Club Energy<br>Escaldes-Engordany<br>Av. del Consell de la Terra, 10, AD700 Escaldes-Engordany</div>`)[0];
+                popup_421668d43bc68e571a73d4da74fac466.setContent(html_6126cd2c83a6260ad445c39bc365aae8);
+            
+        
+
+        marker_a2d5f2b142f58d60bde760dff231e6e0.bindPopup(popup_421668d43bc68e571a73d4da74fac466)
+        ;
+
+        
+    
+    
+                marker_a2d5f2b142f58d60bde760dff231e6e0.setIcon(icon_c32a0e850ab46618a7b240815429af7e);
+            
+    
+            var marker_0d10458be60202c02de640100248fd5b = L.marker(
+                [42.50824, 1.53552],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_fca1d76c368b3640770e50e892e36273 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5c526ade70ac1206ac03b3848e4d04bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_49cc1075e0c70cd6ba3ccf8558616348 = $(`<div id="html_49cc1075e0c70cd6ba3ccf8558616348" style="width: 100.0%; height: 100.0%;">Pub Corinthia<br>Escaldes-Engordany<br>Carrer Sant Antoni, 3, AD700 Escaldes-Engordany</div>`)[0];
+                popup_5c526ade70ac1206ac03b3848e4d04bb.setContent(html_49cc1075e0c70cd6ba3ccf8558616348);
+            
+        
+
+        marker_0d10458be60202c02de640100248fd5b.bindPopup(popup_5c526ade70ac1206ac03b3848e4d04bb)
+        ;
+
+        
+    
+    
+                marker_0d10458be60202c02de640100248fd5b.setIcon(icon_fca1d76c368b3640770e50e892e36273);
+            
+    
+            var marker_0a2a88f5d47352882dfa77c48e7dad79 = L.marker(
+                [42.54171, 1.73223],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_52ab6ce89558695e988b84fe3d74a36e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_755319f0a4af773507a75319b9fff509 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_55f4c59dc8e5ce9bd43bf61fa65f7bba = $(`<div id="html_55f4c59dc8e5ce9bd43bf61fa65f7bba" style="width: 100.0%; height: 100.0%;">Paddy's Irish Bar<br>Encamp<br>Carrer Maia, 7, AD200 Pas de la Casa</div>`)[0];
+                popup_755319f0a4af773507a75319b9fff509.setContent(html_55f4c59dc8e5ce9bd43bf61fa65f7bba);
+            
+        
+
+        marker_0a2a88f5d47352882dfa77c48e7dad79.bindPopup(popup_755319f0a4af773507a75319b9fff509)
+        ;
+
+        
+    
+    
+                marker_0a2a88f5d47352882dfa77c48e7dad79.setIcon(icon_52ab6ce89558695e988b84fe3d74a36e);
+            
+    
+            var marker_8ae7986b4e1c8f06d43cbab3b35141b6 = L.marker(
+                [42.54192, 1.7319],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_9091c855a963c927adfab26d44619b2a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3f99b024aa47a0c0aa836882254c859f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2596ea411ec90fcdc4a39e0fb1c969fd = $(`<div id="html_2596ea411ec90fcdc4a39e0fb1c969fd" style="width: 100.0%; height: 100.0%;">La Perla Negra<br>Encamp<br>Carrer Bearn, 17, AD200 Pas de la Casa</div>`)[0];
+                popup_3f99b024aa47a0c0aa836882254c859f.setContent(html_2596ea411ec90fcdc4a39e0fb1c969fd);
+            
+        
+
+        marker_8ae7986b4e1c8f06d43cbab3b35141b6.bindPopup(popup_3f99b024aa47a0c0aa836882254c859f)
+        ;
+
+        
+    
+    
+                marker_8ae7986b4e1c8f06d43cbab3b35141b6.setIcon(icon_9091c855a963c927adfab26d44619b2a);
+            
+    
+            var marker_bdd6a935f816deee3d506bbb4621ac02 = L.marker(
+                [42.54076, 1.73389],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_60c1ab785a73365e34e8e5b57c3c5c52 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_de9bbca333a8a1b783918c55b4abcc34 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_578cc79cc9d9e2561927300672048a02 = $(`<div id="html_578cc79cc9d9e2561927300672048a02" style="width: 100.0%; height: 100.0%;">La Terrasse Lucien<br>Encamp<br>Av. d'Encamp, 25, AD200 Pas de la Casa</div>`)[0];
+                popup_de9bbca333a8a1b783918c55b4abcc34.setContent(html_578cc79cc9d9e2561927300672048a02);
+            
+        
+
+        marker_bdd6a935f816deee3d506bbb4621ac02.bindPopup(popup_de9bbca333a8a1b783918c55b4abcc34)
+        ;
+
+        
+    
+    
+                marker_bdd6a935f816deee3d506bbb4621ac02.setIcon(icon_60c1ab785a73365e34e8e5b57c3c5c52);
+            
+    
+            var marker_92022c8d7887b0a8d6fb44695bed8ca7 = L.marker(
+                [42.54233, 1.7318],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_362d519b8cee85582ad066ec4f3778a7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5e059e027099d2bc87a8c343c1f38f8a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e93492826e208c1a2c8572915c4bccfa = $(`<div id="html_e93492826e208c1a2c8572915c4bccfa" style="width: 100.0%; height: 100.0%;">Milwaukee<br>Encamp<br>Carrer Bearn, 30, AD200 Pas de la Casa</div>`)[0];
+                popup_5e059e027099d2bc87a8c343c1f38f8a.setContent(html_e93492826e208c1a2c8572915c4bccfa);
+            
+        
+
+        marker_92022c8d7887b0a8d6fb44695bed8ca7.bindPopup(popup_5e059e027099d2bc87a8c343c1f38f8a)
+        ;
+
+        
+    
+    
+                marker_92022c8d7887b0a8d6fb44695bed8ca7.setIcon(icon_362d519b8cee85582ad066ec4f3778a7);
+            
+    
+            var marker_8cafb1ba285bd64b2e69337475eb6039 = L.marker(
+                [42.54084, 1.73369],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_6130760655115eafdc9a1a7c2590d5c2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aef70164b47a7f1652e4b5555db3d08d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8731cb47ea11403a5a2b5c8c2b176339 = $(`<div id="html_8731cb47ea11403a5a2b5c8c2b176339" style="width: 100.0%; height: 100.0%;">El Carlit<br>Encamp<br>Av. d'Encamp, 25, AD200 Pas de la Casa</div>`)[0];
+                popup_aef70164b47a7f1652e4b5555db3d08d.setContent(html_8731cb47ea11403a5a2b5c8c2b176339);
+            
+        
+
+        marker_8cafb1ba285bd64b2e69337475eb6039.bindPopup(popup_aef70164b47a7f1652e4b5555db3d08d)
+        ;
+
+        
+    
+    
+                marker_8cafb1ba285bd64b2e69337475eb6039.setIcon(icon_6130760655115eafdc9a1a7c2590d5c2);
+            
+    
+            var marker_749555e5aeee22d05ecc5ff9e1a6fd45 = L.marker(
+                [42.57734, 1.66732],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_f7f31f1cc173c0598adf3559edb00004 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e91a5a23ad699f87e542771ae177172d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_355e874eb370442be450087d2a0d4faf = $(`<div id="html_355e874eb370442be450087d2a0d4faf" style="width: 100.0%; height: 100.0%;">Fat Albert's Bar and Restaurant<br>Canillo<br>Carrer Antic, AD100 Soldeu</div>`)[0];
+                popup_e91a5a23ad699f87e542771ae177172d.setContent(html_355e874eb370442be450087d2a0d4faf);
+            
+        
+
+        marker_749555e5aeee22d05ecc5ff9e1a6fd45.bindPopup(popup_e91a5a23ad699f87e542771ae177172d)
+        ;
+
+        
+    
+    
+                marker_749555e5aeee22d05ecc5ff9e1a6fd45.setIcon(icon_f7f31f1cc173c0598adf3559edb00004);
+            
+    
+            var marker_72e138b76b87b86de26b66799791aa2b = L.marker(
+                [42.57851, 1.6448],
+                {
+}
+            ).addTo(map_823969ea5490d6edc2210a5c124fff51);
+        
+    
+            var icon_01c4dbbd3356c01d232b99964d8218f6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3a576774675985bf994eb32ae97cd98a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8b2603a7394bb3847875de4dceb968f0 = $(`<div id="html_8b2603a7394bb3847875de4dceb968f0" style="width: 100.0%; height: 100.0%;">L'Abarset<br>Canillo<br>Parking Grandvalira, Camí Pont del Tarter, AD100 El Tarter</div>`)[0];
+                popup_3a576774675985bf994eb32ae97cd98a.setContent(html_8b2603a7394bb3847875de4dceb968f0);
+            
+        
+
+        marker_72e138b76b87b86de26b66799791aa2b.bindPopup(popup_3a576774675985bf994eb32ae97cd98a)
+        ;
+
+        
+    
+    
+                marker_72e138b76b87b86de26b66799791aa2b.setIcon(icon_01c4dbbd3356c01d232b99964d8218f6);
+            
+</script>
+</html>
