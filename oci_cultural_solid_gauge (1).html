@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Oci Cultural - Solid Gauge</title>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+    <script src="https://code.highcharts.com/modules/solid-gauge.js"></script>
+    <style>
+        #container {
+            width: 900px; 
+            margin: 0 auto;
+            display: flex; 
+            justify-content: space-around;
+        }
+        .gauge-container {
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+
+<h2 style="text-align:center;">Proporció de Visitants per Tipologia d'Oci Cultural</h2>
+
+<div id="container">
+    <div id="gauge-0" class="gauge-container"></div>
+    <div id="gauge-1" class="gauge-container"></div>
+    <div id="gauge-2" class="gauge-container"></div>
+    <div id="gauge-3" class="gauge-container"></div>
+</div>
+
+<script>
+    const data = [{'name': 'Activitat Comunal', 'y': 57.6738975455749}, {'name': 'Museus, Sala Exposició o Església', 'y': 0.0}, {'name': "Local d'oci (bar/pub)", 'y': 74.4882370913535}];
+
+    data.forEach((item, index) => {
+        Highcharts.chart('gauge-' + index, {
+            chart: {
+                type: 'solidgauge',
+                height: '100%'
+            },
+            title: null,
+            pane: {
+                center: ['50%', '50%'],
+                size: '90%',
+                startAngle: -90,
+                endAngle: 90,
+                background: {
+                    backgroundColor:
+                        Highcharts.defaultOptions.legend.backgroundColor || '#EEE',
+                    innerRadius: '60%',
+                    outerRadius: '100%',
+                    shape: 'arc'
+                }
+            },
+            tooltip: {
+                enabled: false
+            },
+            yAxis: {
+                min: 0,
+                max: 100,
+                stops: [
+                    [0.1, '#55BF3B'], // verd
+                    [0.5, '#DDDF0D'], // groc
+                    [0.9, '#DF5353']  // vermell
+                ],
+                lineWidth: 0,
+                tickWidth: 0,
+                minorTickInterval: null,
+                tickAmount: 0,
+                title: {
+                    y: -70,
+                    text: item.name,
+                    style: {
+                        fontSize: '16px'
+                    }
+                },
+                labels: {
+                    y: 16
+                }
+            },
+            plotOptions: {
+                solidgauge: {
+                    dataLabels: {
+                        y: 5,
+                        borderWidth: 0,
+                        useHTML: true,
+                        format: '<div style="text-align:center"><span style="font-size:25px;color:black">{y:.1f}%</span></div>'
+                    }
+                }
+            },
+            credits: {
+                enabled: false
+            },
+            series: [{
+                name: item.name,
+                data: [item.y],
+                tooltip: {
+                    valueSuffix: ' %'
+                }
+            }]
+        });
+    });
+</script>
+
+</body>
+</html>
